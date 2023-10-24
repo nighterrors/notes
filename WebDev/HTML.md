@@ -83,6 +83,68 @@ Boolean:
 
 `boolean-attribute` = `boolean-attribute="any value, including 'false'"`
 
+## TAGS
+
+Tags indicate the beginning and/or end of an [element](#elements)'s description in the source code.
+
+### Classification
+
+Container
+	:	A pair of opening and closing tags.
+	:	Represents an [element](#elements).
+
+Empty
+	:	Tags without a closing counterpart.
+	:	Represents a [void-element](#void-element) in HTML.
+
+Self-closing
+	:	Same as empty, but has a trailing `/`.
+	:	The XML, XHTML, SVG compatible version of an empty tag.
+	:	>	:fa-exclamation: Doesn't exist in HTML, but parsers interpret them as empty tags, so to maintain compatibility with XML* it is customary to use them instead of an empty tag.
+	:	>	:fa-exclamation: If a leading whitespace is missing and the last attribute's value isn't quoted, the parser will assume that it's part of the attribute's value.  
+	E.g.: `<tag attribute=value/>` will be interpreted as the attribute having the value of "value/". To avoid this, (besides always quoting attr. values) a leading space should be added:  
+	`<tag attribute="value" />`.
+
+### Anatomy
+
+General
+
+```
+
+|
+< name >
+```
+
+Container tag
+
+```
+ opening tag	 	nested value	closing tag
+		  |					  |			   |
+/---------^---------\ /-------^-------\ /--^--\
+<name[ attribute[s]]> enclosed  content </name>
+\-v-/\------v------/
+  |			|
+tag's name	0 or more attributes separated by space character
+```
+
+Empty tag
+
+```
+same as an opening tag
+		  |
+/---------^---------\
+<name[ attribute[s]]>
+\-v-/\------v------/
+  |			|
+tag's name	0 or more attributes
+```
+
+Self-closing tag
+
+```
+<name[ attribute[s]] />
+```
+
 ## ELEMENTS
 
 <nav>
