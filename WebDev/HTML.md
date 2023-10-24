@@ -38,6 +38,51 @@ HyperText Markup Language
 
 ---
 
+
+## ATTRIBUTES
+
+Attributes in HTML (and XML*) are added to opening-[tags](#tags) to extend or modify the functionality of [elements](#elements).  
+Some attributes are global: Any element can have them; Some are specific to certain elements.  
+Some elements require certain attributes to be configured in order to function properly, other's function just fine without any.
+
+### Classification
+
+By Type:
+
+[Content attribute](https://developer.mozilla.org/en-US/docs/Glossary/Attribute "MDN Web Docs Glossary - Attribute")
+	:	Your everyday key-value pair.
+
+[Boolean attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes#boolean_attributes "MDN Web Docs - HTML Attribute Reference / Boolean Attributes")
+	:	Special case of content attribute.
+	:	Will be interpreted as 'on' if the attribute's name is present in the tag, with- or without any associated value.
+	:	Will be interpreted as 'off', only if absent.
+
+[Event handler attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes#event_handler_attributes "MDN Web Docs - HTML Attribute Reference / Event Handler Attributes")
+	:	
+
+By Scope:
+
+Global
+	:	Associated with any element.
+
+Specific
+	:	Can be used only in certain elements.
+
+### Anatomy
+
+General:
+
+```
+attribute  it's associated value
+	  |		|
+	/-^-\/--^--\
+	name="value"
+```
+
+Boolean:
+
+`boolean-attribute` = `boolean-attribute="any value, including 'false'"`
+
 ## ELEMENTS
 
 <nav>
