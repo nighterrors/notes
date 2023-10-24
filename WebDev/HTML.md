@@ -36,15 +36,24 @@ HyperText Markup Language
 	- [TOC](#toc)
 	- [ATTRIBUTES](#attributes)
 		- [Classification](#classification)
+			- [By Type](#by-type)
+			- [By Scope](#by-scope)
 		- [Anatomy](#anatomy)
+			- [General](#general)
+			- [Boolean](#boolean)
 	- [TAGS](#tags)
 		- [Classification](#classification-1)
 		- [Anatomy](#anatomy-1)
+			- [General](#general-1)
+			- [Container tag](#container-tag)
+			- [Empty tag](#empty-tag)
+			- [Self-closing tag](#self-closing-tag)
 	- [ELEMENTS](#elements)
 		- [Classification](#classification-2)
 			- [Representation](#representation)
 			- [Layout](#layout)
 			- [Semantics](#semantics)
+				- [Notable non-semantic tags:](#notable-non-semantic-tags)
 		- [Anatomy](#anatomy-2)
 		- [Content Types](#content-types)
 			- [(Nothing)](#nothing)
@@ -79,7 +88,7 @@ Some elements require certain attributes to be configured in order to function p
 
 ### Classification
 
-By Type:
+#### By Type
 
 [Content attribute](https://developer.mozilla.org/en-US/docs/Glossary/Attribute "MDN Web Docs Glossary - Attribute")
 	:	Your everyday key-value pair.
@@ -92,7 +101,7 @@ By Type:
 [Event handler attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes#event_handler_attributes "MDN Web Docs - HTML Attribute Reference / Event Handler Attributes")
 	:	
 
-By Scope:
+#### By Scope
 
 Global
 	:	Associated with any element.
@@ -102,7 +111,7 @@ Specific
 
 ### Anatomy
 
-General:
+#### General
 
 ```
 attribute  it's associated value
@@ -111,7 +120,7 @@ attribute  it's associated value
 	name="value"
 ```
 
-Boolean:
+#### Boolean
 
 `boolean-attribute` = `boolean-attribute="any value, including 'false'"`
 
@@ -148,7 +157,7 @@ Self-closing
 
 ### Anatomy
 
-General
+#### General
 
 ```
 
@@ -156,7 +165,7 @@ General
 < name >
 ```
 
-Container tag
+#### Container tag
 
 ```
  opening tag	 	nested value	closing tag
@@ -168,7 +177,7 @@ Container tag
 tag's name	0 or more attributes separated by space character
 ```
 
-Empty tag
+#### Empty tag
 
 ```
 same as an opening tag
@@ -180,7 +189,7 @@ same as an opening tag
 tag's name	0 or more attributes
 ```
 
-Self-closing tag
+#### Self-closing tag
 
 ```
 <name[ attribute[s]] />
@@ -231,7 +240,7 @@ Inline
 - Has semantic meaning (most of them)
 - Doesn't have semantic meaning
 
-Notable non-semantic tags:
+##### Notable non-semantic tags:
 
 - Block:
 	- `<div></div>`
