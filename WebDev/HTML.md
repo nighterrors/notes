@@ -6,16 +6,9 @@
 
 </nav>
 
-# HTML META PAGE
+# HTML
 
-<nav>
-
-| >                                | [:fa-chevron-circle-up:Top](#top)         |                                       |
-| -------------------------------- | :---------------------------------------: | ------------------------------------: |
-| :fa-chevron-circle-left:Previous |                                           | [:fa-chevron-circle-right:Next](#toc) |
-| >                                | [:fa-chevron-circle-down:Bottom](#bottom) |                                       |
-
-</nav>
+HyperText Markup Language
 
 ## TOC
 
@@ -28,7 +21,7 @@
 
 </nav>
 
-- [HTML META PAGE](#html-meta-page)
+- [HTML](#html)
 	- [TOC](#toc)
 	- [ELEMENTS](#elements)
 		- [Classification](#classification)
