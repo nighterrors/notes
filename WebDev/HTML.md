@@ -1,5 +1,3 @@
-<nav id="top">
-
 [NOTES](../Index.md) / [Web Dev](Index.md) / [HTML](HTML.md)
 
 | [:fa-arrow-alt-circle-left:Theory](../Theory/Index.md) | [:fa-arrow-alt-circle-up:INDEX](../Index.md) | [:fa-arrow-alt-circle-right:Utilities](../Utilities/Index.md) |
@@ -8,7 +6,7 @@
 
 </nav>
 
-# HTML
+# HTML META PAGE
 
 <nav>
 
@@ -19,26 +17,35 @@
 
 </nav>
 
-
-
 ## TOC
 
 <nav>
 
-| >                                         | [:fa-chevron-circle-up:Top](#top)         |                                    |
-| ----------------------------------------- | :---------------------------------------: | ---------------------------------: |
-| [:fa-chevron-circle-left:Previous](#html) |                                           | [:fa-chevron-circle-right:Next](#) |
-| >                                         | [:fa-chevron-circle-down:Bottom](#bottom) |                                    |
+| >                                         | [:fa-chevron-circle-up:Top](#top)         |                                            |
+| ----------------------------------------- | :---------------------------------------: | -----------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#html) |                                           | [:fa-chevron-circle-right:Next](#elements) |
+| >                                         | [:fa-chevron-circle-down:Bottom](#bottom) |                                            |
 
 </nav>
 
-- [HTML](#html)
+- [HTML META PAGE](#html-meta-page)
 	- [TOC](#toc)
-	- [](#)
+	- [ELEMENTS](#elements)
+		- [Classification](#classification)
+		- [Content Types](#content-types)
+			- [(Nothing)](#nothing)
+			- [Metadata](#metadata)
+			- [Flow](#flow)
+			- [Sectioning](#sectioning)
+			- [Heading](#heading)
+			- [Phrasing](#phrasing)
+			- [Embedded](#embedded)
+			- [Interactive](#interactive)
+			- [(Palpable)](#palpable)
 
 ---
 
-## 
+## ELEMENTS
 
 <nav>
 
@@ -49,7 +56,52 @@
 
 </nav>
 
+### Classification
 
+| Classification | Types        | Associated Class |
+| -------------- | ------------ | ---------------- |
+| annotation     | container    | A-Container      |
+| ^              | empty        | A-Empty          |
+| Layout         | block        | L-Block          |
+| ^              | inline       | L-Inline         |
+| Semantics      | semantic     | S-Semantic       |
+| ^              | non-semantic | S-NonSemantic    |
+
+### Content Types
+
+#### (Nothing)
+
+Diagram
+
+#### Metadata
+
+
+
+#### Flow
+
+
+
+#### Sectioning
+
+
+
+#### Heading
+
+
+
+#### Phrasing
+
+
+
+#### Embedded
+
+
+
+#### Interactive
+
+
+
+#### (Palpable)<nav id="top">
 
 ---
 
