@@ -1,3 +1,5 @@
+<nav id="top">
+
 [NOTES](../Index.md) / [Web Dev](Index.md) / [HTML](HTML.md)
 
 | [:fa-arrow-alt-circle-left:Theory](../Theory/Index.md) | [:fa-arrow-alt-circle-up:INDEX](../Index.md) | [:fa-arrow-alt-circle-right:Utilities](../Utilities/Index.md) |
@@ -8,23 +10,42 @@
 
 # HTML
 
+<nav>
+
+| >                                | [:fa-chevron-circle-up:Top](#top)         |                                       |
+| -------------------------------- | :---------------------------------------: | ------------------------------------: |
+| :fa-chevron-circle-left:Previous |                                           | [:fa-chevron-circle-right:Next](#toc) |
+| >                                | [:fa-chevron-circle-down:Bottom](#bottom) |                                       |
+
+</nav>
+
 HyperText Markup Language
 
 ## TOC
 
 <nav>
 
-| >                                         | [:fa-chevron-circle-up:Top](#top)         |                                            |
-| ----------------------------------------- | :---------------------------------------: | -----------------------------------------: |
-| [:fa-chevron-circle-left:Previous](#html) |                                           | [:fa-chevron-circle-right:Next](#elements) |
-| >                                         | [:fa-chevron-circle-down:Bottom](#bottom) |                                            |
+| >                                         | [:fa-chevron-circle-up:Top](#top)         |                                              |
+| ----------------------------------------- | :---------------------------------------: | -------------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#html) |                                           | [:fa-chevron-circle-right:Next](#attributes) |
+| >                                         | [:fa-chevron-circle-down:Bottom](#bottom) |                                              |
 
 </nav>
 
 - [HTML](#html)
 	- [TOC](#toc)
-	- [ELEMENTS](#elements)
+	- [ATTRIBUTES](#attributes)
 		- [Classification](#classification)
+		- [Anatomy](#anatomy)
+	- [TAGS](#tags)
+		- [Classification](#classification-1)
+		- [Anatomy](#anatomy-1)
+	- [ELEMENTS](#elements)
+		- [Classification](#classification-2)
+			- [Representation](#representation)
+			- [Layout](#layout)
+			- [Semantics](#semantics)
+		- [Anatomy](#anatomy-2)
 		- [Content Types](#content-types)
 			- [(Nothing)](#nothing)
 			- [Metadata](#metadata)
@@ -40,6 +61,15 @@ HyperText Markup Language
 
 
 ## ATTRIBUTES
+
+<nav>
+
+| >                                        | [:fa-chevron-circle-up:Top](#top)         |                                        |
+| ---------------------------------------- | :---------------------------------------: | -------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#toc) |                                           | [:fa-chevron-circle-right:Next](#tags) |
+| >                                        | [:fa-chevron-circle-down:Bottom](#bottom) |                                        |
+
+</nav>
 
 Attributes in HTML (and XML*) are added to opening-[tags](#tags) to extend or modify the functionality of [elements](#elements).  
 Some attributes are global: Any element can have them; Some are specific to certain elements.  
@@ -84,6 +114,15 @@ Boolean:
 `boolean-attribute` = `boolean-attribute="any value, including 'false'"`
 
 ## TAGS
+
+<nav>
+
+| >                                               | [:fa-chevron-circle-up:Top](#top)         |                                            |
+| ----------------------------------------------- | :---------------------------------------: | -----------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#attributes) |                                           | [:fa-chevron-circle-right:Next](#elements) |
+| >                                               | [:fa-chevron-circle-down:Bottom](#bottom) |                                            |
+
+</nav>
 
 Tags indicate the beginning and/or end of an [element](#elements)'s description in the source code.
 
@@ -149,29 +188,70 @@ Self-closing tag
 
 <nav>
 
-| >                                        | [:fa-chevron-circle-up:Top](#top)         |                                    |
-| ---------------------------------------- | :---------------------------------------: | ---------------------------------: |
-| [:fa-chevron-circle-left:Previous](#toc) |                                           | [:fa-chevron-circle-right:Next](#) |
-| >                                        | [:fa-chevron-circle-down:Bottom](#bottom) |                                    |
+| >                                               | [:fa-chevron-circle-up:Top](#top)         |                               |
+| ----------------------------------------------- | :---------------------------------------: | ----------------------------: |
+| [:fa-chevron-circle-left:Previous](#attributes) |                                           | :fa-chevron-circle-right:Next |
+| >                                               | [:fa-chevron-circle-down:Bottom](#bottom) |                               |
 
 </nav>
 
 ### Classification
 
-| Classification | Types        | Associated Class |
-| -------------- | ------------ | ---------------- |
-| annotation     | container    | A-Container      |
-| ^              | empty        | A-Empty          |
-| Layout         | block        | L-Block          |
-| ^              | inline       | L-Inline         |
-| Semantics      | semantic     | S-Semantic       |
-| ^              | non-semantic | S-NonSemantic    |
+| Classification | Types        | Associated Class^*^ |
+| -------------- | ------------ | ------------------- |
+| Representation | container    | A-Container         |
+| ^              | void         | A-Void              |
+| Layout         | block        | L-Block             |
+| ^              | inline       | L-Inline            |
+| Semantics      | semantic     | S-Semantic          |
+| ^              | non-semantic | S-NonSemantic       |
+
+\* As it will appear in the upcoming demo page.
+
+#### Representation
+
+<!--TODO: IDK, not void?-->
+	:	
+
+Void
+	:	
+
+#### Layout
+
+Block
+	:	
+
+Inline
+	:	
+
+#### Semantics
+
+- Has semantic meaning (most of them)
+- Doesn't have semantic meaning
+
+Notable non-semantic tags:
+
+- Block:
+	- `<div></div>`
+- Inline:
+	- `<span></span>`
+	- `<b></b>`
+	- `<i></i>`
+	- `<u></u>`
+
+### Anatomy
+
+```
+<tag>???</tag>
+```
 
 ### Content Types
 
+<!--TODO: Diagram-->
+
 #### (Nothing)
 
-Diagram
+
 
 #### Metadata
 
@@ -201,7 +281,7 @@ Diagram
 
 
 
-#### (Palpable)<nav id="top">
+#### (Palpable)
 
 ---
 
