@@ -56,9 +56,11 @@ HyperText Markup Language
 			- [Embedded](#embedded)
 			- [Interactive](#interactive)
 			- [(Palpable)](#palpable)
+	- [PAGE](#page)
+		- [Classification](#classification-3)
+		- [Anatomy](#anatomy-3)
 
 ---
-
 
 ## ATTRIBUTES
 
@@ -188,10 +190,10 @@ Self-closing tag
 
 <nav>
 
-| >                                               | [:fa-chevron-circle-up:Top](#top)         |                               |
-| ----------------------------------------------- | :---------------------------------------: | ----------------------------: |
-| [:fa-chevron-circle-left:Previous](#attributes) |                                           | :fa-chevron-circle-right:Next |
-| >                                               | [:fa-chevron-circle-down:Bottom](#bottom) |                               |
+| >                                               | [:fa-chevron-circle-up:Top](#top)         |                                        |
+| ----------------------------------------------- | :---------------------------------------: | -------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#attributes) |                                           | [:fa-chevron-circle-right:Next](#page) |
+| >                                               | [:fa-chevron-circle-down:Bottom](#bottom) |                                        |
 
 </nav>
 
@@ -282,6 +284,43 @@ Notable non-semantic tags:
 
 
 #### (Palpable)
+
+## PAGE
+
+<nav>
+
+| >                                             | [:fa-chevron-circle-up:Top](#top)         |                               |
+| --------------------------------------------- | :---------------------------------------: | ----------------------------: |
+| [:fa-chevron-circle-left:Previous](#elements) |                                           | :fa-chevron-circle-right:Next |
+| >                                             | [:fa-chevron-circle-down:Bottom](#bottom) |                               |
+
+</nav>
+
+### Classification
+
+Single-page
+	:	
+
+Multi-page
+	:	
+
+### Anatomy
+
+```
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+	</head>
+
+	<body>
+
+	</body>
+
+</html>
+```
 
 ---
 
