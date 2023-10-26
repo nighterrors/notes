@@ -328,6 +328,15 @@ Multi-page
 
 ### Anatomy
 
+Properly formatted html consists of the following parts, in the following order:
+
+0. \[Byte Order Mark]
+1. \[Comments &| whitespace]
+2. [DOCTYPE](#special-tag-level-components)
+3. \[Comments &| whitespace]
+4. Document element (`<html>`\[...]`</html>`)
+5. \[Comments &| whitespace]
+
 ```
 <!DOCTYPE html>
 
