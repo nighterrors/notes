@@ -115,9 +115,9 @@ Specific
 
 ```
 attribute  it's associated value
-	  |		|
-	/-^-\/--^--\
-	name="value"
+      |     |
+    /-^-\/--^--\
+    name="value"
 ```
 
 #### Boolean
@@ -168,25 +168,25 @@ Self-closing
 #### Container tag
 
 ```
- opening tag	 	nested value	closing tag
-		  |					  |			   |
+ opening tag          nested value  closing tag
+          |                   |            |
 /---------^---------\ /-------^-------\ /--^--\
 <name[ attribute[s]]> enclosed  content </name>
 \-v-/\------v------/
-  |			|
-tag's name	0 or more attributes separated by space character
+  |         |
+tag's name  0 or more attributes separated by space character
 ```
 
 #### Empty tag
 
 ```
 same as an opening tag
-		  |
+          |
 /---------^---------\
 <name[ attribute[s]]>
 \-v-/\------v------/
-  |			|
-tag's name	0 or more attributes
+  |         |
+tag's name  0 or more attributes
 ```
 
 #### Self-closing tag
