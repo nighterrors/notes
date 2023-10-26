@@ -48,6 +48,7 @@ HyperText Markup Language
 			- [Container tag](#container-tag)
 			- [Empty tag](#empty-tag)
 			- [Self-closing tag](#self-closing-tag)
+		- [Special "tag-level" components](#special-tag-level-components)
 	- [ELEMENTS](#elements)
 		- [Classification](#classification-2)
 			- [Representation](#representation)
@@ -194,6 +195,18 @@ tag's name  0 or more attributes
 ```
 <name[ attribute[s]] />
 ```
+
+### Special "tag-level" components
+
+Technically aren't tags, but just as important parts of the document.
+
+Comment
+	:	`<!--comment-->`
+	:	
+	
+Doctype
+	:	`<!DOCTYPE html>`
+	:	Must be the line of the document, that isn't a whitespace or a comment
 
 ## ELEMENTS
 
