@@ -91,7 +91,7 @@ Some elements require certain attributes to be configured in order to function p
 
 #### By Type
 
-[Content attribute](https://developer.mozilla.org/en-US/docs/Glossary/Attribute "MDN Web Docs Glossary - Attribute")
+[Content attribute](https://developer.mozilla.org/en-US/docs/Glossary/Attribute "MDN Web Docs Glossary - Attribute")<!--FXME: Find name for general attribute-->
 	:	Your everyday key-value pair.
 
 [Boolean attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes#boolean_attributes "MDN Web Docs - HTML Attribute Reference / Boolean Attributes")
@@ -100,14 +100,14 @@ Some elements require certain attributes to be configured in order to function p
 	:	Will be interpreted as 'off', only if absent.
 
 [Event handler attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes#event_handler_attributes "MDN Web Docs - HTML Attribute Reference / Event Handler Attributes")
-	:	
+	:	<!--TODO-->
 
 #### By Scope
 
 Global
 	:	Associated with any element.
 
-Specific
+Specific<!--FXME: Find name for non-global attributes-->
 	:	Can be used only in certain elements.
 
 ### Anatomy
@@ -124,6 +124,7 @@ attribute  it's associated value
 #### Boolean
 
 `boolean-attribute` = `boolean-attribute="any value, including 'false'"`
+<!--TODO: Add explanation-->
 
 ## TAGS
 
@@ -137,6 +138,7 @@ attribute  it's associated value
 </nav>
 
 Tags indicate the beginning and/or end of an [element](#elements)'s description in the source code.
+<!--TODO: Elaborate further?-->
 
 ### Classification
 
