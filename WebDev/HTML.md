@@ -242,6 +242,8 @@ Doctype
 
 </nav>
 
+An element is represented by its corresponding tag in HTML.
+
 ### Classification
 
 | Classification | Types        | Associated Class^*^ |
