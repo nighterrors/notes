@@ -161,9 +161,13 @@ Self-closing
 #### General
 
 ```
-
+opening angle-bracket
 |
-< name >
+| tag's name
+| |
+| | closing angle-bracket
+|/^\|
+<tag>
 ```
 
 #### Container tag
@@ -173,9 +177,13 @@ Self-closing
           |                   |            |
 /---------^---------\ /-------^-------\ /--^--\
 <name[ attribute[s]]> enclosed  content </name>
-\-v-/\------v------/
+\-v-/\------v------/                    \--v--/
+  |         |                              |
+  |         |  `<` + tag's name preceded by a forward-slash + `>`
   |         |
-tag's name  0 or more attributes separated by space character
+  |  0 or more attributes separated by space character
+  |
+`<` + tag's name
 ```
 
 #### Empty tag
@@ -185,15 +193,30 @@ same as an opening tag
           |
 /---------^---------\
 <name[ attribute[s]]>
-\-v-/\------v------/
+\-v-/\------v------/|
+  |         |       |
+  |         |      `>`
   |         |
-tag's name  0 or more attributes
+  | 0 or more attributes 
+  |
+`<` + tag's name
 ```
 
 #### Self-closing tag
 
 ```
+single tag only
+           |
+/----------^----------\
 <name[ attribute[s]] />
+\-v-/\------v------/\v/
+  |         |        |
+`<` +       |        |
+tag's name  |        |
+            |        |
+0 or more attributes |
+                     |
+whitespace + forward slash + closing angle-bracket
 ```
 
 ### Special "tag-level" components
