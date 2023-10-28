@@ -52,6 +52,7 @@ HyperText Markup Language
 	- [ELEMENTS](#elements)
 		- [Classification](#classification-2)
 			- [Representation](#representation)
+			- [Relationship](#relationship)
 			- [Layout](#layout)
 			- [Semantics](#semantics)
 				- [Notable non-semantic tags:](#notable-non-semantic-tags)
@@ -249,14 +250,17 @@ An element is represented by its corresponding tag in HTML.
 
 ### Classification
 
-| Classification | Types        | Associated Class^*^ |
-| -------------- | ------------ | ------------------- |
-| Representation | container    | A-Container         |
-| ^              | void         | A-Void              |
-| Layout         | block        | L-Block             |
-| ^              | inline       | L-Inline            |
-| Semantics      | semantic     | S-Semantic          |
-| ^              | non-semantic | S-NonSemantic       |
+| Classification | Types        | Associated Class^*^             |
+| -------------- | ------------ | ------------------------------- |
+| Representation | container    | A-Container                     |
+| ^              | void         | A-Void                          |
+| Relationship   | root         | R-Root                          |
+| ^              | parent       | none - it's a relative property |
+| ^              | child        | ^                               |
+| Layout         | block        | L-Block                         |
+| ^              | inline       | L-Inline                        |
+| Semantics      | semantic     | S-Semantic                      |
+| ^              | non-semantic | S-NonSemantic                   |
 
 \* As it will appear in the upcoming demo page.
 
@@ -267,6 +271,17 @@ An element is represented by its corresponding tag in HTML.
 
 Void
 	:	
+
+#### Relationship
+
+Root
+	:	<!--TODO-->
+
+Parent
+	:	<!--TODO-->
+
+Child
+	:	<!--TODO-->
 
 #### Layout
 
