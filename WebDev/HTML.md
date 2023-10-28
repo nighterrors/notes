@@ -155,10 +155,10 @@ attribute  it's associated value
 [Event handler attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes#event_handler_attributes "MDN Web Docs - HTML Attribute Reference / Event Handler Attributes")
 	:	Describe the *on*event behaviour of certain objects (that can have events).
 	:	:fa-exclamation: This is a legacy way of handling events and should be avoided!  
-		See: [Inline event handlers](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#other_event_listener_mechanisms "MDN Web Docs - Introduction to events / Inline event handlers - don't use tese")
+		See: [Inline event handlers](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#other_event_listener_mechanisms "MDN Web Docs - Introduction to events / Inline event handlers - don't use these")
 	:	Name
 		:	Name of the specific event that supposed to trigger the action.
-		:	Usually in the form of *on*eventname E.g.: `onclick`.
+		:	Usually in the form of *on*event-name E.g.: `onclick`.
 	:	Value
 		:	The JS function to be triggered by the event.
 
