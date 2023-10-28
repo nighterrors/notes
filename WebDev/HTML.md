@@ -223,13 +223,13 @@ tag's name  |        |
 whitespace + forward slash + closing angle-bracket
 ```
 
-### Special "tag-level" components
+### Special "tag-level" components<!--FXME: Better title/name-->
 
 Technically aren't tags, but just as important parts of the document.
 
 Comment
 	:	`<!--comment-->`
-	:	
+	:	<!--TODO-->
 	
 Doctype
 	:	`<!DOCTYPE html>`
@@ -270,7 +270,7 @@ An element is represented by its corresponding tag in HTML.
 	:	
 
 Void
-	:	
+	:	<!--TODO-->
 
 #### Relationship
 
@@ -286,10 +286,10 @@ Child
 #### Layout
 
 Block
-	:	
+	:	<!--TODO-->
 
 Inline
-	:	
+	:	<!--TODO-->
 
 #### Semantics
 
@@ -308,7 +308,7 @@ Inline
 
 ### Anatomy
 
-```
+```<!--TODO-->
 <tag>???</tag>
 ```
 
@@ -318,35 +318,35 @@ Inline
 
 #### (Nothing)
 
-
+<!--TODO-->
 
 #### Metadata
 
-
+<!--TODO-->
 
 #### Flow
 
-
+<!--TODO-->
 
 #### Sectioning
 
-
+<!--TODO-->
 
 #### Heading
 
-
+<!--TODO-->
 
 #### Phrasing
 
-
+<!--TODO-->
 
 #### Embedded
 
-
+<!--TODO-->
 
 #### Interactive
 
-
+<!--TODO-->
 
 #### (Palpable)
 
@@ -364,10 +364,10 @@ Inline
 ### Classification
 
 Single-page
-	:	
+	:	<!--TODO-->
 
 Multi-page
-	:	
+	:	<!--TODO-->
 
 ### Anatomy
 
@@ -380,6 +380,7 @@ Properly formatted html consists of the following parts, in the following order:
 4. Document element (`<html>`\[...]`</html>`)
 5. \[Comments &| whitespace]
 
+<!--TODO-->
 ```
 <!DOCTYPE html>
 
@@ -395,6 +396,8 @@ Properly formatted html consists of the following parts, in the following order:
 
 </html>
 ```
+
+<!--TODO-->
 
 ---
 
