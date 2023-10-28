@@ -36,6 +36,7 @@ HyperText Markup Language
 	- [TOC](#toc)
 	- [INTRODUCTION](#introduction)
 		- [Terms](#terms)
+		- [Notations](#notations)
 	- [ATTRIBUTES](#attributes)
 		- [Anatomy](#anatomy)
 			- [General](#general)
@@ -89,6 +90,14 @@ HyperText Markup Language
 ### Terms
 
 Ind this document I refer to the contents of an HTML as [*tags*](#tags), which can have [*attributes*](#attributes). These have an abstract counterpart of a corresponding *object* and its *properties*. Objects in the scope of web pages are referred to as [*elements*](#elements).
+
+### Notations<!--FXME: Elaborate further-->
+
+- Term to be substituted `{term}`
+- Optional `[term]`
+- Xor `|`
+- And `&`
+- Or `&|`
 
 ## ATTRIBUTES
 
