@@ -101,7 +101,9 @@ Ind this document I refer to the contents of an HTML as [*tags*](#tags), which c
 
 </nav>
 
-Attributes in HTML (and XML*) are added to opening-[tags](#tags) to extend or modify the functionality of [elements](#elements).  
+Attributes in HTML (and XML*) are added to opening-[tags](#tags) to extend or modify the functionality of [elements](#elements).
+These attributes describe (modify or set) properties of their corresponding objects (elements).
+
 Some attributes are global: Any element can have them; Some are specific to certain elements.  
 Some elements require certain attributes to be configured in order to function properly, other's function just fine without any.
 
@@ -109,23 +111,38 @@ Some elements require certain attributes to be configured in order to function p
 
 #### By Type
 
-[Content attribute](https://developer.mozilla.org/en-US/docs/Glossary/Attribute "MDN Web Docs Glossary - Attribute")<!--FXME: Find name for general attribute-->
-	:	Your everyday key-value pair.
+[General attribute](https://developer.mozilla.org/en-US/docs/Glossary/Attribute "MDN Web Docs Glossary - Attribute")
+	:	Your everyday key-value pair. See: [anatomy](#general "General anatomy of an attribute").
+	:	Name
+		:	<!--TODO-->
+	:	Value
+		:	<!--TODO-->
 
 [Boolean attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes#boolean_attributes "MDN Web Docs - HTML Attribute Reference / Boolean Attributes")
 	:	Special case of content attribute.
 	:	Will be interpreted as 'on' if the attribute's name is present in the tag, with- or without any associated value.
 	:	Will be interpreted as 'off', only if absent.
+	:	Name
+		:	The property to be toggled on.
+	:	Value
+		:	N/A (any).
 
 [Event handler attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes#event_handler_attributes "MDN Web Docs - HTML Attribute Reference / Event Handler Attributes")
-	:	<!--TODO-->
+	:	Describe the *on*event behaviour of certain objects (that can have events).
+	:	:fa-exclamation: This is a legacy way of handling events and should be avoided!  
+		See: [Inline event handlers](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#other_event_listener_mechanisms "MDN Web Docs - Introduction to events / Inline event handlers - don't use tese")
+	:	Name
+		:	Name of the specific event that supposed to trigger the action.
+		:	Usually in the form of *on*eventname E.g.: `onclick`.
+	:	Value
+		:	The JS function to be triggered by the event.
 
 #### By Scope
 
 Global
-	:	Associated with any element.
+	:	Associated with any element. => Every element can have attributes.
 
-Specific<!--FXME: Find name for non-global attributes-->
+Non-global
 	:	Can be used only in certain elements.
 
 ### Anatomy
