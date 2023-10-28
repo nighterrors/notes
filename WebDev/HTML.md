@@ -25,15 +25,17 @@ HyperText Markup Language
 
 <nav>
 
-| >                                         | [:fa-chevron-circle-up:Top](#top)         |                                              |
-| ----------------------------------------- | :---------------------------------------: | -------------------------------------------: |
-| [:fa-chevron-circle-left:Previous](#html) |                                           | [:fa-chevron-circle-right:Next](#attributes) |
-| >                                         | [:fa-chevron-circle-down:Bottom](#bottom) |                                              |
+| >                                         | [:fa-chevron-circle-up:Top](#top)         |                                                |
+| ----------------------------------------- | :---------------------------------------: | ---------------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#html) |                                           | [:fa-chevron-circle-right:Next](#introduction) |
+| >                                         | [:fa-chevron-circle-down:Bottom](#bottom) |                                                |
 
 </nav>
 
 - [HTML](#html)
 	- [TOC](#toc)
+	- [INTRODUCTION](#introduction)
+		- [Terms](#terms)
 	- [ATTRIBUTES](#attributes)
 		- [Classification](#classification)
 			- [By Type](#by-type)
@@ -73,14 +75,29 @@ HyperText Markup Language
 
 ---
 
+## INTRODUCTION
+
+<nav>
+
+| >                                        | [:fa-chevron-circle-up:Top](#top)         |                                              |
+| ---------------------------------------- | :---------------------------------------: | -------------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#toc) |                                           | [:fa-chevron-circle-right:Next](#attributes) |
+| >                                        | [:fa-chevron-circle-down:Bottom](#bottom) |                                              |
+
+</nav>
+
+### Terms
+
+Ind this document I refer to the contents of an HTML as [*tags*](#tags), which can have [*attributes*](#attributes). These have an abstract counterpart of a corresponding *object* and its *properties*. Objects in the scope of web pages are referred to as [*elements*](#elements).
+
 ## ATTRIBUTES
 
 <nav>
 
-| >                                        | [:fa-chevron-circle-up:Top](#top)         |                                        |
-| ---------------------------------------- | :---------------------------------------: | -------------------------------------: |
-| [:fa-chevron-circle-left:Previous](#toc) |                                           | [:fa-chevron-circle-right:Next](#tags) |
-| >                                        | [:fa-chevron-circle-down:Bottom](#bottom) |                                        |
+| >                                                 | [:fa-chevron-circle-up:Top](#top)         |                                        |
+| ------------------------------------------------- | :---------------------------------------: | -------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#introduction) |                                           | [:fa-chevron-circle-right:Next](#tags) |
+| >                                                 | [:fa-chevron-circle-down:Bottom](#bottom) |                                        |
 
 </nav>
 
