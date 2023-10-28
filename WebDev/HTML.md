@@ -37,28 +37,28 @@ HyperText Markup Language
 	- [INTRODUCTION](#introduction)
 		- [Terms](#terms)
 	- [ATTRIBUTES](#attributes)
-		- [Classification](#classification)
-			- [By Type](#by-type)
-			- [By Scope](#by-scope)
 		- [Anatomy](#anatomy)
 			- [General](#general)
 			- [Boolean](#boolean)
+		- [Classification](#classification)
+			- [By Type](#by-type)
+			- [By Scope](#by-scope)
 	- [TAGS](#tags)
-		- [Classification](#classification-1)
 		- [Anatomy](#anatomy-1)
 			- [General](#general-1)
 			- [Container tag](#container-tag)
 			- [Empty tag](#empty-tag)
 			- [Self-closing tag](#self-closing-tag)
 		- [Special "tag-level" components](#special-tag-level-components)
+		- [Classification](#classification-1)
 	- [ELEMENTS](#elements)
+		- [Anatomy](#anatomy-2)
 		- [Classification](#classification-2)
 			- [Representation](#representation)
 			- [Relationship](#relationship)
 			- [Layout](#layout)
 			- [Semantics](#semantics)
 				- [Notable non-semantic tags:](#notable-non-semantic-tags)
-		- [Anatomy](#anatomy-2)
 		- [Content Types](#content-types)
 			- [(Nothing)](#nothing)
 			- [Metadata](#metadata)
@@ -107,6 +107,22 @@ These attributes describe (modify or set) properties of their corresponding obje
 Some attributes are global: Any element can have them; Some are specific to certain elements.  
 Some elements require certain attributes to be configured in order to function properly, other's function just fine without any.
 
+### Anatomy
+
+#### General
+
+```
+attribute  it's associated value
+      |     |
+    /-^-\/--^--\
+    name="value"
+```
+
+#### Boolean
+
+`boolean-attribute` = `boolean-attribute="any value, including 'false'"`
+<!--TODO: Add explanation-->
+
 ### Classification
 
 #### By Type
@@ -145,22 +161,6 @@ Global
 Non-global
 	:	Can be used only in certain elements.
 
-### Anatomy
-
-#### General
-
-```
-attribute  it's associated value
-      |     |
-    /-^-\/--^--\
-    name="value"
-```
-
-#### Boolean
-
-`boolean-attribute` = `boolean-attribute="any value, including 'false'"`
-<!--TODO: Add explanation-->
-
 ## TAGS
 
 <nav>
@@ -174,24 +174,6 @@ attribute  it's associated value
 
 Tags indicate the beginning and/or end of an [element](#elements)'s description in the source code.
 <!--TODO: Elaborate further?-->
-
-### Classification
-
-Container
-	:	A pair of opening and closing tags.
-	:	Represents an [element](#elements).
-
-Empty
-	:	Tags without a closing counterpart.
-	:	Represents a [void-element](#void-element) in HTML.
-
-Self-closing
-	:	Same as empty, but has a trailing `/`.
-	:	The XML, XHTML, SVG compatible version of an empty tag.
-	:	>	:fa-exclamation: Doesn't exist in HTML, but parsers interpret them as empty tags, so to maintain compatibility with XML* it is customary to use them instead of an empty tag.
-	:	>	:fa-exclamation: If a leading whitespace is missing and the last attribute's value isn't quoted, the parser will assume that it's part of the attribute's value.  
-	E.g.: `<tag attribute=value/>` will be interpreted as the attribute having the value of "value/". To avoid this, (besides always quoting attr. values) a leading space should be added:  
-	`<tag attribute="value" />`.
 
 ### Anatomy
 
@@ -269,6 +251,24 @@ Doctype
 	:	`<!DOCTYPE html>`
 	:	Must be the first line of the document, that isn't a whitespace or a comment
 
+### Classification
+
+Container
+	:	A pair of opening and closing tags.
+	:	Represents an [element](#elements).
+
+Empty
+	:	Tags without a closing counterpart.
+	:	Represents a [void-element](#void-element) in HTML.
+
+Self-closing
+	:	Same as empty, but has a trailing `/`.
+	:	The XML, XHTML, SVG compatible version of an empty tag.
+	:	>	:fa-exclamation: Doesn't exist in HTML, but parsers interpret them as empty tags, so to maintain compatibility with XML* it is customary to use them instead of an empty tag.
+	:	>	:fa-exclamation: If a leading whitespace is missing and the last attribute's value isn't quoted, the parser will assume that it's part of the attribute's value.  
+	E.g.: `<tag attribute=value/>` will be interpreted as the attribute having the value of "value/". To avoid this, (besides always quoting attr. values) a leading space should be added:  
+	`<tag attribute="value" />`.
+
 ## ELEMENTS
 
 <nav>
@@ -281,6 +281,12 @@ Doctype
 </nav>
 
 An element is represented by its corresponding tag in HTML.
+
+### Anatomy
+
+```<!--TODO-->
+<tag>???</tag>
+```
 
 ### Classification
 
@@ -339,12 +345,6 @@ Inline
 	- `<b></b>`
 	- `<i></i>`
 	- `<u></u>`
-
-### Anatomy
-
-```<!--TODO-->
-<tag>???</tag>
-```
 
 ### Content Types
 
