@@ -233,7 +233,7 @@ Comment
 	
 Doctype
 	:	`<!DOCTYPE html>`
-	:	Must be the line of the document, that isn't a whitespace or a comment
+	:	Must be the first line of the document, that isn't a whitespace or a comment
 
 ## ELEMENTS
 
