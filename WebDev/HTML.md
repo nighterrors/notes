@@ -175,45 +175,46 @@ opening angle-bracket
 #### Container tag
 
 ```
- opening tag          nested value  closing tag
-          |                   |            |
-/---------^---------\ /-------^-------\ /--^--\
-<name[ attribute[s]]> enclosed  content </name>
-\-v-/\------v------/                    \--v--/
-  |         |                              |
-  |         |  `<` + tag's name preceded by a forward-slash + `>`
-  |         |
-  |  0 or more attributes separated by space character
-  |
-`<` + tag's name
+  opening tag      nested value  closing tag
+           |                 |           |
+ /---------^--------\/-------^-------\/--^-\
+ <tag[ attribute[s]]>enclosed  content</tag>
+ |\v/\------v------/|                 |\-v/|
+ | |        |       |                 |  | |
+`<`|        |      `>`               `<` |`>`
+   |        |                            |
+ tag's name |          tag's name preceded by `/`
+            |
+0 or more attributes separated by space character
 ```
 
 #### Empty tag
 
 ```
-same as an opening tag
-          |
-/---------^---------\
-<name[ attribute[s]]>
-\-v-/\------v------/|
-  |         |       |
-  |         |      `>`
-  |         |
-  | 0 or more attributes 
-  |
-`<` + tag's name
+ same as an opening tag
+           |
+ /---------^--------\
+ <tag[ attribute[s]]>
+ |\v/\------v------/|
+ | |        |       |
+`<`|        |      `>`
+   |        |
+ tag's name |
+            |
+  0 or more attributes
 ```
 
 #### Self-closing tag
 
 ```
-single tag only
-           |
-/----------^----------\
-<name[ attribute[s]] />
-\-v-/\------v------/\v/
-  |         |        |
-`<` +       |        |
+ single tag only
+            |
+ /----------^---------\
+ <tag[ attribute[s]] />
+ |\v/\------v------/\v/
+ | |        |        |
+`<`|        |        |
+   |        |        |
 tag's name  |        |
             |        |
 0 or more attributes |
