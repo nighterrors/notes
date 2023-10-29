@@ -142,11 +142,21 @@ Some elements require certain attributes to be configured in order to function p
 #### General
 
 ```
-attribute  it's associated value
-      |     |
-    /-^-\/--^--\
-    name="value"
+attribute `=` it's associated value
+        |  |   |
+       /^-\|/--^--\
+       name="value"
+            |     |
+         quotation marks
 ```
+
+- Quoting the value of an attribute is only necessary, if {value} has special characters, including whitespace, but *it's a good practice to do it every time*.
+- Quoted text can be **equivalently** represented by either single-quotes (`'`) *or* double-quotes (`"`), but *opening and closing marks have to be of the same type*.
+	- > It's common to use the other type of quotation mark, if one of them also appears in the text.
+	- E.g.: `"I'm using this as an example."` or `'She said: "But why?"'`
+	- > It's necessary to escape the reoccurring symbol if both are present in the quoted text.
+	- E.g.: `'To quote Shakespeare: "Don\'t".'`
+- 
 
 #### Boolean
 
