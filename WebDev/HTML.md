@@ -134,8 +134,8 @@ Ind this document I refer to the contents of an HTML as [*tags*](#tags), which c
 Attributes in HTML (and XML*) are added to opening-[tags](#tags) to extend or modify the functionality of [elements](#elements).
 These attributes describe (modify or set) properties of their corresponding objects (elements).
 
-Some attributes are global: Any element can have them; Some are specific to certain elements.  
-Some elements require certain attributes to be configured in order to function properly, other's function just fine without any.
+<aside>Some attributes are global: Any element can have them; Some are specific to certain elements.  
+Some elements require certain attributes to be configured in order to function properly, other's function just fine without any.</aside>
 
 ### Anatomy
 
