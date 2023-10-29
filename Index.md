@@ -57,69 +57,35 @@
 
 </nav>
 
-### 1. [Theory](Theory/Index.md)
-
-#### 1.1. [Bitwise Operations](Theory/BitwiseOperations.md)
-
-#### 1.2. [Data Structures](Theory/DataStructures.md)
-
-#### 1.3. [Algorithms](Theory/Algorithms.md)
-
-#### 1.4. [Design Patterns](Theory/DesignPatterns.md)
-
----
-
-### 2. [Web Development](WebDev/Index.md)
-
-#### Frontend
-
-#### 2.1. [HTML](WebDev/HTML.md)
-
-##### 2.1.0. [TOC](WebDev/HTML.md#toc)
-
-##### 2.1.1. [Introduction](WebDev/HTML.md#introduction)
-
-##### 2.1.2. [Attributes](WebDev/HTML.md#attributes)
-
-##### 2.1.3. [Tags](WebDev/HTML.md#tags)
-
-##### 2.1.4. [Elements](WebDev/HTML.md#elements)
-
-##### 2.1.5. [Page](WebDev/HTML.md#page)
-
-#### 2.2. [CSS](WebDev/CSS.md)
-
-#### 2.3. [JS](WebDev/JS.md)
-
-#### Tools
-
-#### 2.4. [Angular](WebDev/Angular.md)
-
----
-
-#### Backend
-
-#### 2.5. [Node.js](WebDev/Node.js.md)
-
----
-
-### 3. [Utilities](Utilities/Index.md)
-
-#### 3.1. [Git](Utilities/Git.md)
-
-#### 3.2. [RegExp](Utilities/RegExp.md)
-
----
-
-### 4. [SQL](SQL/Index.md)
-
----
-
-### 5. [Python](Python/Index.md)
-
----
-
-### 6. [R](R/Index.md)
+- [Theory](Theory/Index.md)
+	- [Bitwise Operations](Theory/BitwiseOperations.md)
+	- [Data Structures](Theory/DataStructures.md)
+	- [Algorithms](Theory/Algorithms.md)
+	- [Design Patterns](Theory/DesignPatterns.md)
+	- ---
+- [Web Development](WebDev/Index.md)
+	- [HTML](WebDev/HTML.md)
+		- [TOC](WebDev/HTML.md#toc)
+		- [Introduction](WebDev/HTML.md#introduction)
+		- [Attributes](WebDev/HTML.md#attributes)
+		- [Tags](WebDev/HTML.md#tags)
+		- [Elements](WebDev/HTML.md#elements)
+		- [Page](WebDev/HTML.md#page)
+	- [CSS](WebDev/CSS.md)
+	- [JS](WebDev/JS.md)
+	- [Angular](WebDev/Angular.md)
+		- ---
+	- [Node.js](WebDev/Node.js.md)
+	- ---
+- [Utilities](Utilities/Index.md)
+	- [Git](Utilities/Git.md)
+	- [RegExp](Utilities/RegExp.md)
+	- ---
+- [SQL](SQL/Index.md)
+	- ---
+- [Python](Python/Index.md)
+	- ---
+- [R](R/Index.md)
 
 ---
 
