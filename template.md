@@ -1,0 +1,45 @@
+<nav id="top">
+
+[NOTES](../Index.md) / [](Index.md) /[](.md)
+
+| [:fa-arrow-alt-circle-left:](..//Index.md) | [:fa-arrow-alt-circle-up:TOC](../TOC.md) | [:fa-arrow-alt-circle-right:](..//Index.md) |
+| ------------------------------------------ | :--------------------------------------: | ------------------------------------------: |
+| [:fa-arrow-circle-left:](.md)              | [:fa-arrow-circle-up:Index](Index.md)    | [:fa-arrow-circle-right:](.md)              |
+
+</nav>
+
+# 
+
+<nav>
+
+| >                                | [:fa-chevron-circle-up:Top](#top)         |                                       |
+| -------------------------------- | :---------------------------------------: | ------------------------------------: |
+| :fa-chevron-circle-left:Previous |                                           | [:fa-chevron-circle-right:Next](#toc) |
+| >                                | [:fa-chevron-circle-down:Bottom](#bottom) |                                       |
+
+</nav>
+
+
+
+## TOC
+
+<nav>
+
+| >                                     | [:fa-chevron-circle-up:Top](#top)         |                                    |
+| ------------------------------------- | :---------------------------------------: | ---------------------------------: |
+| [:fa-chevron-circle-left:Previous](#) |                                           | [:fa-chevron-circle-right:Next](#) |
+| >                                     | [:fa-chevron-circle-down:Bottom](#bottom) |                                    |
+
+</nav>
+
+
+
+
+<nav id="bottom">
+
+| [:fa-arrow-alt-circle-left:](..//Index.md) | [:fa-arrow-alt-circle-up:TOC](../Index.md) | [:fa-arrow-alt-circle-right:Utilities](..//Index.md) |
+| ------------------------------------------ | :----------------------------------------: | ---------------------------------------------------: |
+| [:fa-arrow-circle-left:](.md)              | [:fa-arrow-circle-up:Index](Index.md)      | [:fa-arrow-circle-right:](.md)                       |
+| >                                          | [:fa-chevron-circle-up:Top](#top)          |                                                      |
+
+</nav>
