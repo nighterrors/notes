@@ -47,3 +47,8 @@
 ## 5. [Python](Python/Index.md)
 
 ---
+
+## 6. [R](R/Index.md)
+
+---
+
