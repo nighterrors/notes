@@ -4,7 +4,7 @@
 
 | [:fa-arrow-alt-circle-left:INDEX](../Index.md)             | [:fa-arrow-alt-circle-up:INDEX](../Index.md) | [:fa-arrow-alt-circle-right:Web Dev](../WebDev/Index.md)    |
 | ---------------------------------------------------------- | :------------------------------------------: | ----------------------------------------------------------: |
-| [:fa-arrow-circle-left:Data Structures](DataStructures.md) | [:fa-arrow-circle-up:Index](Index.md)        | [:fa-arrow-circle-right:Design Patterns](DesignPatterns.md) |
+| [:fa-arrow-circle-left:Data Structures](DataStructures.md) | [:fa-arrow-circle-up:Theory](Index.md)       | [:fa-arrow-circle-right:Design Patterns](DesignPatterns.md) |
 
 </nav>
 
@@ -57,7 +57,7 @@
 
 | [:fa-arrow-alt-circle-left:INDEX](../Index.md)             | [:fa-arrow-alt-circle-up:INDEX](../Index.md) | [:fa-arrow-alt-circle-right:Web Dev](../WebDev/Index.md)    |
 | ---------------------------------------------------------- | :------------------------------------------: | ----------------------------------------------------------: |
-| [:fa-arrow-circle-left:Data Structures](DataStructures.md) | [:fa-arrow-circle-up:Index](Index.md)        | [:fa-arrow-circle-right:Design Patterns](DesignPatterns.md) |
+| [:fa-arrow-circle-left:Data Structures](DataStructures.md) | [:fa-arrow-circle-up:Theory](Index.md)       | [:fa-arrow-circle-right:Design Patterns](DesignPatterns.md) |
 | >                                                          | [:fa-chevron-circle-up:Top](#top)            |                                                             |
 
 </nav>
