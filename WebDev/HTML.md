@@ -154,7 +154,7 @@ attribute  it's associated value
 
 [Event handler attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes#event_handler_attributes "MDN Web Docs - HTML Attribute Reference / Event Handler Attributes")
 	:	Describe the *on*event behaviour of certain objects (that can have events).
-	:	:fa-exclamation: This is a legacy way of handling events and should be avoided!  
+	:	:fa-exclamation-circle: This is a legacy way of handling events and should be avoided!  
 		See: [Inline event handlers](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#other_event_listener_mechanisms "MDN Web Docs - Introduction to events / Inline event handlers - don't use these")
 	:	Name
 		:	Name of the specific event that supposed to trigger the action.
@@ -273,8 +273,8 @@ Empty
 Self-closing
 	:	Same as empty, but has a trailing `/`.
 	:	The XML, XHTML, SVG compatible version of an empty tag.
-	:	>	:fa-exclamation: Doesn't exist in HTML, but parsers interpret them as empty tags, so to maintain compatibility with XML* it is customary to use them instead of an empty tag.
-	:	>	:fa-exclamation: If a leading whitespace is missing and the last attribute's value isn't quoted, the parser will assume that it's part of the attribute's value.  
+	:	>	:fa-exclamation-circle: Doesn't exist in HTML, but parsers interpret them as empty tags, so to maintain compatibility with XML* it is customary to use them instead of an empty tag.
+	:	>	:fa-exclamation-circle: If a leading whitespace is missing and the last attribute's value isn't quoted, the parser will assume that it's part of the attribute's value.  
 	E.g.: `<tag attribute=value/>` will be interpreted as the attribute having the value of "value/". To avoid this, (besides always quoting attr. values) a leading space should be added:  
 	`<tag attribute="value" />`.
 
