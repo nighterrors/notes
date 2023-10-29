@@ -11,13 +11,12 @@
 
 # [THEORY](Index.md)
 
-## [Bitwise Operations](BitwiseOperations.md)
+## TOC
 
-## [Data Structures](DataStructures.md)
-
-## [Algorithms](Algorithms.md)
-
-## [Design Patterns](DesignPatterns.md)
+- [Bitwise Operations](BitwiseOperations.md)
+- [Data Structures](DataStructures.md)
+- [Algorithms](Algorithms.md)
+- [Design Patterns](DesignPatterns.md)
 
 ---
 
