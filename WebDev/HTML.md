@@ -35,10 +35,6 @@ HyperText Markup Language
 - [HTML](#html)
 	- [TOC](#toc)
 	- [INTRODUCTION](#introduction)
-		- [Terms](#terms)
-		- [Notations](#notations)
-			- [Icons](#icons)
-			- [Text](#text)
 	- [ATTRIBUTES](#attributes)
 		- [Anatomy](#anatomy)
 			- [General](#general)
@@ -89,36 +85,7 @@ HyperText Markup Language
 
 </nav>
 
-### Terms
-
 Ind this document I refer to the contents of an HTML as [*tags*](#tags), which can have [*attributes*](#attributes). These have an abstract counterpart of a corresponding *object* and its *properties*. Objects in the scope of web pages are referred to as [*elements*](#elements).
-
-### Notations<!--FXME: Elaborate further-->
-
-#### Icons
-
-| Navigation                                     | Notation                        |
-| ---------------------------------------------- | ------------------------------- |
-| :fa-arrow-alt-circle-up: - To top level        | :fa-question-circle: - question |
-| :fa-arrow-alt-circle-down: - not used          | :fa-info-circle: -              |
-| :fa-arrow-alt-circle-left: - Previous category | :fa-exclamation-circle: -       |
-| :fa-arrow-alt-circle-right: - Next category    | :fa-check-circle: -             |
-| :fa-arrow-circle-up: - Up one level            | :fa-times-circle: -             |
-| :fa-arrow-circle-down: - not used              | :fa-poo: -                      |
-| :fa-arrow-circle-left: - Previous chapter      | N/A                             |
-| :fa-arrow-circle-right: - Next chapter         | N/A                             |
-| :fa-chevron-circle-up: - To top of page        | N/A                             |
-| :fa-chevron-circle-down: - To bottom of page   | N/A                             |
-| :fa-chevron-circle-left: - Previous section    | N/A                             |
-| :fa-chevron-circle-right: - Next section       | N/A                             |
-
-#### Text
-
-- Term to be substituted `{term}`
-- Optional `[term]`
-- Xor `|`
-- And `&`
-- Or `&|`
 
 ## ATTRIBUTES
 

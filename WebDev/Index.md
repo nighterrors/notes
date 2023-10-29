@@ -12,15 +12,27 @@
 
 ## FRONTEND
 
-### [HTML](HTML.md)
+#### 2.1. [HTML](WebDev/HTML.md)
 
-### [CSS](CSS.md)
+#### 2.1.0. [TOC](WebDev/HTML.md#toc)
 
-### [JS](JS.md)
+#### 2.1.1. [Introduction](WebDev/HTML.md#introduction)
+
+#### 2.1.2. [Attributes](WebDev/HTML.md#attributes)
+
+#### 2.1.3. [Tags](WebDev/HTML.md#tags)
+
+#### 2.1.4. [Elements](WebDev/HTML.md#elements)
+
+#### 2.1.5. [Page](WebDev/HTML.md#page)
+
+### 2.2. [CSS](WebDev/CSS.md)
+
+### 2.3. [JS](WebDev/JS.md)
 
 ### Tools
 
-#### [Angular](Angular.md)
+### 2.4. [Angular](WebDev/Angular.md)
 
 ---
 
@@ -28,7 +40,7 @@
 
 ### Tools
 
-#### [Node.js](Node.js.md)
+#### 2.5. [Node.js](Node.js.md)
 
 ---
 
