@@ -26,19 +26,19 @@
 
 ### 2.A. Front End
 
-#### 2.A.1. [HTML](WebDev/HTML.md)
+### 2.A.1. [HTML](WebDev/HTML.md)
 
-#### 2.A.2. [CSS](WebDev/CSS.md)
+### 2.A.2. [CSS](WebDev/CSS.md)
 
-#### 2.A.3. [JS](WebDev/JS.md)
+### 2.A.3. [JS](WebDev/JS.md)
 
-#### 2.A.4. [Angular](WebDev/Angular.md)
+### 2.A.4. [Angular](WebDev/Angular.md)
 
 ---
 
 ### 2.B. Back End
 
-#### 2.B.1. [Node.js](WebDev/Node.js.md)
+### 2.B.1. [Node.js](WebDev/Node.js.md)
 
 ---
 

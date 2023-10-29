@@ -8,6 +8,18 @@
 
 </nav>
 
+# [THEORY](Index.md)
+
+## [Bitwise Operations](BitwiseOperations.md)
+
+## [Data Structures](DataStructures.md)
+
+## [Algorithms](Algorithms.md)
+
+## [Design Patterns](DesignPatterns.md)
+
+---
+
 <nav id="bottom">
 
 | [:fa-arrow-alt-circle-left:INDEX](../Index.md) | [:fa-arrow-alt-circle-up:INDEX](../Index.md) | [:fa-arrow-alt-circle-right:WebDev](../WebDev/Index.md)  |
