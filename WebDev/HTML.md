@@ -71,6 +71,7 @@ HyperText Markup Language
 	- [PAGE](#page)
 		- [Classification](#classification-3)
 		- [Anatomy](#anatomy-3)
+	- [REFERENCES](#references)
 
 ---
 
@@ -395,10 +396,10 @@ Inline
 
 <nav>
 
-| >                                             | [:fa-chevron-circle-up:Top](#top)         |                               |
-| --------------------------------------------- | :---------------------------------------: | ----------------------------: |
-| [:fa-chevron-circle-left:Previous](#elements) |                                           | :fa-chevron-circle-right:Next |
-| >                                             | [:fa-chevron-circle-down:Bottom](#bottom) |                               |
+| >                                             | [:fa-chevron-circle-up:Top](#top)         |                                              |
+| --------------------------------------------- | :---------------------------------------: | -------------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#elements) |                                           | [:fa-chevron-circle-right:Next](#references) |
+| >                                             | [:fa-chevron-circle-down:Bottom](#bottom) |                                              |
 
 </nav>
 
@@ -439,6 +440,28 @@ Properly formatted html consists of the following parts, in the following order:
 ```
 
 <!--TODO-->
+
+## REFERENCES
+
+<nav>
+
+| >                                         | [:fa-chevron-circle-up:Top](#top)         |                               |
+| ----------------------------------------- | :---------------------------------------: | ----------------------------: |
+| [:fa-chevron-circle-left:Previous](#page) |                                           | :fa-chevron-circle-right:Next |
+| >                                         | [:fa-chevron-circle-down:Bottom](#bottom) |                               |
+
+</nav>
+
+<!--Abbreviations-->
+
+*[CSS]: Cascading Style Sheets
+*[HTML]: Hyper Text Markup Language
+*[JS]: Java Script
+*[MDN]: Mozilla Developer Network
+*[SVG]: Scalable Vector Graphics
+*[TOC]: Table of Content
+*[XHTML]: XML compatible HTML
+*[XML]: eXtensible Markup Language
 
 ---
 
