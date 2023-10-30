@@ -2,5 +2,8 @@
 	"markdown.validate.ignoredLinks": [
 		"#top",
 		"#bottom"
+	],
+	"cSpell.words": [
+		"IDK"
 	]
 }
