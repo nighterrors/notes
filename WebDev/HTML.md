@@ -173,19 +173,6 @@ Boolean attributes can have only 2 states: Either `true` or `false`. These state
 	:	Value
 		:	Its associated value.
 		:	Types of accepted values depend on the attribute.
-		:	Data types:
-			- Number
-			- Temporal
-				- Time
-				- Date
-				- Date and time
-			- Colour
-			- Tokens
-				- Space-separated
-				- Comma-separated
-			- Reference
-			- Media query
-			- Unique internal value
 
 [Event handler attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes#event_handler_attributes "MDN Web Docs - HTML Attribute Reference / Event Handler Attributes")
 	:	Describe the *on*event behaviour of certain objects (that can have events).
