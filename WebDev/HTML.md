@@ -110,26 +110,40 @@ Some elements require certain attributes to be configured in order to function p
 #### General
 
 ```
-attribute `=` it's associated value
-        |  |   |
-       /^-\|/--^--\
-       name="value"
-            |     |
-         quotation marks
+attribute's name `=` it's associated value
+             |    |   |
+         /---^---\|/--^--\
+         attribute="value"
+                   |     |
+                quotation marks
 ```
 
 - Quoting the value of an attribute is only necessary, if {value} has special characters, including whitespace, but *it's a good practice to do it every time*.
-- Quoted text can be **equivalently** represented by either single-quotes (`'`) *or* double-quotes (`"`), but *opening and closing marks have to be of the same type*.
-	- > It's common to use the other type of quotation mark, if one of them also appears in the text.
-	- <aside>E.g.: `"I'm using this as an example."` or `'She said: "But why?"'`</aside>
-	- > It's necessary to escape the reoccurring symbol if both are present in the quoted text.
-	- <aside>E.g.: `'To quote Shakespeare: "Don\'t".'`</aside>
+- Quoted text can be *equivalently* represented by either single-quotes (`'`) *or* double-quotes (`"`), but *opening and closing marks have to be of the same type*.
+	- It's common to use the other type of quotation mark, if one of them also appears in the text.
+		- <aside>E.g.: <code>"I'm using this as an example."</code> or <code>'She said: "But why?"'</code></aside>
+	- It's necessary to escape the reoccurring symbol if both are present in the quoted text.
+		- <aside>E.g.: <code>'To quote Shakespeare: "Don\'t".'</code></aside>
+	- > :fa-info-circle: In this document I use single quotes (`'`) for common keywords.  
+	And double quotes (`"`) for specific terms, that don't have implied meaning beside their value.
+		- <aside>E.g.: <code>'true'</code>, <code>target='_blank'</code>, <code>lang='en_GB'</code></aside>
+		- <aside>E.g.: <code>id="arbitrary-string"</code>, <code>class="my-class"</code>, <code>alt="Image description goes here."</code></aside>
 - <!--TODO: IDK, what I wanted to add here:c-->
 
 #### Boolean
 
-`boolean-attribute` = `boolean-attribute="any value, including 'false'"`
-<!--TODO: Add explanation-->
+Boolean attributes can have only 2 states: Either `true` or `false`. These states are implied by the presence or absence of the attribute itself, respectably. As such, they don't require defined values.
+<aside>In fact, its associated value is completely ignored. This can create the rather misleading situation where `boolean='false'` is still interpreted as being set to 'true'.</aside>
+
+| 'On'-states             | 'Off'-state |
+| :---------------------: | :---------: |
+| `boolean`               | `''`^*^     |
+| `boolean = 'true'`      | ^           |
+| `boolean = "any value"` | ^           |
+| `boolean = 'false'`     | ^           |
+\* 'Off' only when it's not present.
+
+> :fa-info-circle: In above example `boolean` represents the name of a boolean attribute.
 
 ### Classification
 
@@ -138,22 +152,23 @@ attribute `=` it's associated value
 [General attribute](https://developer.mozilla.org/en-US/docs/Glossary/Attribute "MDN Web Docs Glossary - Attribute")
 	:	Your everyday key-value pair. See: [anatomy](#general "General anatomy of an attribute").
 	:	Name
-		:	<!--TODO-->
+		:	Identifies the attribute and the property it represents.
 	:	Value
-		:	<!--TODO-->
+		:	Its associated value.
+		:	Types of accepted values depend on the attribute.
 
 [Boolean attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes#boolean_attributes "MDN Web Docs - HTML Attribute Reference / Boolean Attributes")
-	:	Special case of content attribute.
+	:	Special type of attribute: Can have only 2 states: 'on'/'true' of 'off'/'false'.
 	:	Will be interpreted as 'on' if the attribute's name is present in the tag, with- or without any associated value.
 	:	Will be interpreted as 'off', only if absent.
 	:	Name
 		:	The property to be toggled on.
 	:	Value
-		:	N/A (any).
+		:	N/A (*none* necessary; *any* value accepted, but *ignored*).
 
 [Event handler attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes#event_handler_attributes "MDN Web Docs - HTML Attribute Reference / Event Handler Attributes")
 	:	Describe the *on*event behaviour of certain objects (that can have events).
-	:	:fa-exclamation-circle: This is a legacy way of handling events and should be avoided!  
+	:	> :fa-exclamation-circle: This is a legacy way of handling events and should be avoided!  
 		See: [Inline event handlers](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#other_event_listener_mechanisms "MDN Web Docs - Introduction to events / Inline event handlers - don't use these")
 	:	Name
 		:	Name of the specific event that supposed to trigger the action.
