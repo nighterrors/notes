@@ -90,6 +90,8 @@ HyperText Markup Language
 
 In this document I refer to the contents of an HTML as [*tags*](#tags), which can have [*attributes*](#attributes). These have an abstract counterpart of a corresponding *object* and its *properties*. Objects in the scope of web pages are referred to as [*elements*](#elements).
 
+---
+
 ## ATTRIBUTES
 
 <nav>
@@ -164,7 +166,7 @@ Boolean attributes can have only 2 states: Either `true` or `false`. These state
 	:	<aside>Somewhere in-between a boolean and a more general attribute.</aside>
 	:	Has finite states, set via predefined keywords.
 	:	<aside>E.g.: <code></code> | <code>hidden</code> | <code>hidden='until-found'</code> sets an element to be visible | hidden | or to be only revealed when referenced or searched for.</aside>
-	:	
+	<!--TODO: Further explanation, maybe?-->
 
 [General attribute](https://developer.mozilla.org/en-US/docs/Glossary/Attribute "MDN Web Docs Glossary - Attribute")
 	:	Your everyday key-value pair. See: [anatomy](#general "General anatomy of an attribute").
@@ -432,7 +434,9 @@ Self-closing
 
 ### Common Examples
 
+<!--TODO-->
 
+---
 
 ## ELEMENTS
 
@@ -498,7 +502,7 @@ Inline
 
 #### Semantics
 
-- Has semantic meaning (most of them)
+- Has semantic meaning (most of them have)
 - Doesn't have semantic meaning
 
 ##### Notable non-semantic tags:
@@ -613,6 +617,7 @@ Properly formatted html consists of the following parts, in the following order:
 
 *[CSS]: Cascading Style Sheets
 *[HTML]: Hyper Text Markup Language
+*[HTTP]: HyperText Transfer Protocol
 *[JS]: Java Script
 *[MDN]: Mozilla Developer Network
 *[SVG]: Scalable Vector Graphics
