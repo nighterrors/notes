@@ -103,7 +103,7 @@ Attributes in HTML (and XML*) are added to opening-[tags](#tags) to extend or mo
 These attributes describe (modify or set) properties of their corresponding objects (elements).
 
 <aside>Some attributes are global: Any element can have them; Some are specific to certain elements.  
-Some elements require certain attributes to be configured in order to function properly, other's function just fine without any.</aside>
+Some elements require certain attributes to be configured in order to function properly, others function just fine without any.</aside>
 
 ### Anatomy
 
