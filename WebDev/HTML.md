@@ -188,26 +188,134 @@ Non-global
 
 ### [Common Examples](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes "MDN Web Docs - HTML Attribute Reference")
 
-alt
+| Attribute           | Type    | Scope                                                                                      | Data Type |
+| ------------------: | ------- | ------------------------------------------------------------------------------------------ | --------- |
+| **action**          | general | `<form>`                                                                                   | URI       |
+| >                   | >       | The URI of the receiver that processes the information sent via the form's onsubmit event. |           |
+| **align**           |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **alt**             | general | `<area>` `<img>` `<input>`                                                                 | string    |
+| >                   | >       | Text to show if image can't be displayed.                                                  |           |
+| >                   | >       | <aside>May help crawlers, AI to put the image in context.</aside>                          |           |
+| **async**           |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **autocomplete**    |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **autoplay**        | boolean |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **charset**         | general | `<meta>`                                                                                   | string    |
+| >                   | >       |                                                                                            |           |
+| **checked**         |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **cite**            |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **class**           |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **colspan**         |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **content**         |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **contenteditable** |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **contextmenu**     |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **controls**        | boolean |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **crossorigin**     |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **default**         |         | `<track>`                                                                                  |           |
+| >                   | >       |                                                                                            |           |
+| **defer**           | boolean | `<script>`                                                                                 |           |
+| >                   | >       |                                                                                            |           |
+| **disabled**        | boolean |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **download**        |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **draggable**       |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **for**             | general | `<label>` `<output>`                                                                       |           |
+| >                   | >       |                                                                                            |           |
+| **form**            |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **hidden**          | boolean | global                                                                                     |           |
+| >                   | >       |                                                                                            |           |
+| **href**            |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **id**              | general | global                                                                                     |           |
+| >                   | >       |                                                                                            |           |
+| **inputmode**       |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **label**           |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **lang**            |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **language**        |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **list**            |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **loop**            |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **max**             |         | <!--TODO: Add maxlength, min, minlength too!-->                                            |           |
+| >                   | >       |                                                                                            |           |
+| **method**          |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **muted**           |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **name**            |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **novalidate**      |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **pattern**         |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **placeholder**     |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **poster**          |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **preload**         |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **preload**         |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **readonly**        | boolean |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **rel**             |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **required**        |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **reversed**        |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **role**            |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **rowspan**         |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **selected**        |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **spellcheck**      |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **src**             |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **start**           |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **step**            |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **style**           |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **summary**         |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **tabindex**        |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **target**          |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **title**           |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **translate**       |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **type**            |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **value**           |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
+| **wrap**            |         |                                                                                            |           |
+| >                   | >       |                                                                                            |           |
 
-class
-	:	
-
-href
-
-id
-	:	| scope  | type    | data type |
-		| ------ | ------- | --------- |
-		| global | general | string    |
-	:	Gives unique identifier to its element. => :fa-exclamation-circle: Must be unique within a given document!
-
-src
-
-style
-
-target
-
-title
 ## TAGS
 
 <nav>
