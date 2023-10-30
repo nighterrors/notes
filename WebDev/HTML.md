@@ -85,7 +85,7 @@ HyperText Markup Language
 
 </nav>
 
-Ind this document I refer to the contents of an HTML as [*tags*](#tags), which can have [*attributes*](#attributes). These have an abstract counterpart of a corresponding *object* and its *properties*. Objects in the scope of web pages are referred to as [*elements*](#elements).
+In this document I refer to the contents of an HTML as [*tags*](#tags), which can have [*attributes*](#attributes). These have an abstract counterpart of a corresponding *object* and its *properties*. Objects in the scope of web pages are referred to as [*elements*](#elements).
 
 ## ATTRIBUTES
 
@@ -120,10 +120,10 @@ attribute `=` it's associated value
 - Quoting the value of an attribute is only necessary, if {value} has special characters, including whitespace, but *it's a good practice to do it every time*.
 - Quoted text can be **equivalently** represented by either single-quotes (`'`) *or* double-quotes (`"`), but *opening and closing marks have to be of the same type*.
 	- > It's common to use the other type of quotation mark, if one of them also appears in the text.
-	- E.g.: `"I'm using this as an example."` or `'She said: "But why?"'`
+	- <aside>E.g.: `"I'm using this as an example."` or `'She said: "But why?"'`</aside>
 	- > It's necessary to escape the reoccurring symbol if both are present in the quoted text.
-	- E.g.: `'To quote Shakespeare: "Don\'t".'`
-- 
+	- <aside>E.g.: `'To quote Shakespeare: "Don\'t".'`</aside>
+- <!--TODO: IDK, what I wanted to add here:c-->
 
 #### Boolean
 
@@ -266,7 +266,7 @@ Container
 
 Empty
 	:	Tags without a closing counterpart.
-	:	Represents a [void-element](#void-element) in HTML.
+	:	Represents a [void-element](#representation) in HTML.
 
 Self-closing
 	:	Same as empty, but has a trailing `/`.
