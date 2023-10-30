@@ -151,14 +151,6 @@ Boolean attributes can have only 2 states: Either `true` or `false`. These state
 
 #### By Type
 
-[General attribute](https://developer.mozilla.org/en-US/docs/Glossary/Attribute "MDN Web Docs Glossary - Attribute")
-	:	Your everyday key-value pair. See: [anatomy](#general "General anatomy of an attribute").
-	:	Name
-		:	Identifies the attribute and the property it represents.
-	:	Value
-		:	Its associated value.
-		:	Types of accepted values depend on the attribute.
-
 [Boolean attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes#boolean_attributes "MDN Web Docs - HTML Attribute Reference / Boolean Attributes")
 	:	Special type of attribute: Can have only 2 states: 'on'/'true' of 'off'/'false'.
 	:	Will be interpreted as 'on' if the attribute's name is present in the tag, with- or without any associated value.
@@ -167,6 +159,33 @@ Boolean attributes can have only 2 states: Either `true` or `false`. These state
 		:	The property to be toggled on.
 	:	Value
 		:	N/A (*none* necessary; *any* value accepted, but *ignored*).
+
+[Enumerated attribute](https://developer.mozilla.org/en-US/docs/Glossary/Enumerated "MDN Web Docs - Glossary / Enumerated")
+	:	<aside>Somewhere in-between a boolean and a more general attribute.</aside>
+	:	Has finite states, set via predefined keywords.
+	:	<aside>E.g.: <code></code> | <code>hidden</code> | <code>hidden='until-found'</code> sets an element to be visible | hidden | or to be only revealed when referenced or searched for.</aside>
+	:	
+
+[General attribute](https://developer.mozilla.org/en-US/docs/Glossary/Attribute "MDN Web Docs Glossary - Attribute")
+	:	Your everyday key-value pair. See: [anatomy](#general "General anatomy of an attribute").
+	:	Name
+		:	Identifies the attribute and the property it represents.
+	:	Value
+		:	Its associated value.
+		:	Types of accepted values depend on the attribute.
+		:	Data types:
+			- Number
+			- Temporal
+				- Time
+				- Date
+				- Date and time
+			- Colour
+			- Tokens
+				- Space-separated
+				- Comma-separated
+			- Reference
+			- Media query
+			- Unique internal value
 
 [Event handler attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes#event_handler_attributes "MDN Web Docs - HTML Attribute Reference / Event Handler Attributes")
 	:	Describe the *on*event behaviour of certain objects (that can have events).
