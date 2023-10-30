@@ -42,6 +42,7 @@ HyperText Markup Language
 		- [Classification](#classification)
 			- [By Type](#by-type)
 			- [By Scope](#by-scope)
+		- [Common Examples](#common-examples)
 	- [TAGS](#tags)
 		- [Anatomy](#anatomy-1)
 			- [General](#general-1)
@@ -50,6 +51,7 @@ HyperText Markup Language
 			- [Self-closing tag](#self-closing-tag)
 		- [Special "tag-level" components](#special-tag-level-components)
 		- [Classification](#classification-1)
+		- [Common Examples](#common-examples-1)
 	- [ELEMENTS](#elements)
 		- [Anatomy](#anatomy-2)
 		- [Classification](#classification-2)
@@ -184,6 +186,28 @@ Global
 Non-global
 	:	Can be used only in certain elements.
 
+### [Common Examples](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes "MDN Web Docs - HTML Attribute Reference")
+
+alt
+
+class
+	:	
+
+href
+
+id
+	:	| scope  | type    | data type |
+		| ------ | ------- | --------- |
+		| global | general | string    |
+	:	Gives unique identifier to its element. => :fa-exclamation-circle: Must be unique within a given document!
+
+src
+
+style
+
+target
+
+title
 ## TAGS
 
 <nav>
@@ -291,6 +315,10 @@ Self-closing
 	:	>	:fa-exclamation-circle: If a leading whitespace is missing and the last attribute's value isn't quoted, the parser will assume that it's part of the attribute's value.  
 	E.g.: `<tag attribute=value/>` will be interpreted as the attribute having the value of "value/". To avoid this, (besides always quoting attr. values) a leading space should be added:  
 	`<tag attribute="value" />`.
+
+### Common Examples
+
+
 
 ## ELEMENTS
 
