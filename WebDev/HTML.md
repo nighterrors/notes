@@ -536,6 +536,8 @@ An element is represented by its corresponding tag in HTML.
 
 ### Classification
 
+https://html.spec.whatwg.org/multipage/syntax.html#elements-2 <!--TODO: Move it footnote!-->
+
 | Classification | Types        | Associated Class^*^             |
 | -------------- | ------------ | ------------------------------- |
 | Representation | container    | A-Container                     |
