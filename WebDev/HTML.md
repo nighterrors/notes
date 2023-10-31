@@ -645,7 +645,9 @@ Inline
 
 </nav>
 
-### Classification
+<aside>
+Most elements are useless on their own: they need to be placed in a hierarchical tree. While there's a degree of freedom, as to their parent-child relationship, there are certain complex structures, that require more rigorous element placement. The most obvious of these is the html document itself.
+</aside>
 
 ### Page
 
