@@ -196,134 +196,196 @@ Non-global
 
 ### [Common Examples](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes "MDN Web Docs - HTML Attribute Reference")
 
-| Attribute           | Type    | Scope                                                                                      | Data Type |
-| ------------------: | ------- | ------------------------------------------------------------------------------------------ | --------- |
-| **action**          | general | `<form>`                                                                                   | URI       |
-| >                   | >       | The URI of the receiver that processes the information sent via the form's onsubmit event. |           |
-| **align**           |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **alt**             | general | `<area>` `<img>` `<input>`                                                                 | string    |
-| >                   | >       | Text to show if image can't be displayed.                                                  |           |
-| >                   | >       | <aside>May help crawlers, AI to put the image in context.</aside>                          |           |
-| **async**           |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **autocomplete**    |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **autoplay**        | boolean |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **charset**         | general | `<meta>`                                                                                   | string    |
-| >                   | >       |                                                                                            |           |
-| **checked**         |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **cite**            |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **class**           |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **colspan**         |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **content**         |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **contenteditable** |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **contextmenu**     |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **controls**        | boolean |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **crossorigin**     |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **default**         |         | `<track>`                                                                                  |           |
-| >                   | >       |                                                                                            |           |
-| **defer**           | boolean | `<script>`                                                                                 |           |
-| >                   | >       |                                                                                            |           |
-| **disabled**        | boolean |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **download**        |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **draggable**       |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **for**             | general | `<label>` `<output>`                                                                       |           |
-| >                   | >       |                                                                                            |           |
-| **form**            |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **hidden**          | boolean | global                                                                                     |           |
-| >                   | >       |                                                                                            |           |
-| **href**            |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **id**              | general | global                                                                                     |           |
-| >                   | >       |                                                                                            |           |
-| **inputmode**       |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **label**           |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **lang**            |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **language**        |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **list**            |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **loop**            |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **max**             |         | <!--TODO: Add maxlength, min, minlength too!-->                                            |           |
-| >                   | >       |                                                                                            |           |
-| **method**          |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **muted**           |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **name**            |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **novalidate**      |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **pattern**         |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **placeholder**     |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **poster**          |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **preload**         |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **preload**         |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **readonly**        | boolean |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **rel**             |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **required**        |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **reversed**        |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **role**            |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **rowspan**         |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **selected**        |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **spellcheck**      |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **src**             |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **start**           |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **step**            |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **style**           |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **summary**         |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **tabindex**        |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **target**          |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **title**           |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **translate**       |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **type**            |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **value**           |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
-| **wrap**            |         |                                                                                            |           |
-| >                   | >       |                                                                                            |           |
+<!--FXME: Check if `enumerated` elements were miscategorised prior to the first one!-->
+<!--FXME: Decide on the use of "Coupled" vs "Paired"!-->
+<!--FXME: More conscious use of "Hints", "Indicates", "Declares", "Sets", "Dictates"-->
 
+| Attribute           | Type       | Scope                                                                                                                 | Value Data Type                   |
+| ------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| **action**          | general    | `<form>`                                                                                                              | URI                               |
+| ^                   | >          | The URI of the receiver that processes the information sent via the form's onsubmit event.                            |                                   |
+| **alt**             | general    | `<area>` `<img>` `<input>`                                                                                            | string                            |
+| ^                   | >          | Text to show if image can't be displayed.                                                                             |                                   |
+| ^                   | >          | <aside>May help crawlers, AI to put the image in context.</aside>                                                     |                                   |
+| **async**           | boolean    | `<script>`                                                                                                            | boolean                           |
+| ^                   | >          | Dictates asynchronous script execution.                                                                               |                                   |
+| **autocomplete**    | general    | `<form>` `<input>` `<select>` `<textarea>`                                                                            | keyword                           |
+| ^                   | >          | Hints the browser that fields can be auto filled.                                                                     |                                   |
+| ^                   | >          | May give info on the type of data requested.                                                                          |                                   |
+| **autoplay**        | boolean    | `<audio>` `<video>`                                                                                                   | boolean                           |
+| ^                   | >          | Indicates that the media should be played ASAP.                                                                       |                                   |
+| **charset**         | general    | `<meta>`                                                                                                              | keyword                           |
+| ^                   | >          | Declares character encoding for the object.                                                                           |                                   |
+| **checked**         | boolean    | `<input>`                                                                                                             | boolean                           |
+| ^                   | >          | Sets the input to be checked on page load.                                                                            |                                   |
+| ^                   | >          | Valid for `checkbox` and `radio` types.                                                                               |                                   |
+| **cite**            | general    | `<blockquote>` `<del>` `<ins>` `<q>`                                                                                  | URI                               |
+| ^                   | >          | Source URI of the quote.                                                                                              |                                   |
+| **class**           | general    | GLOBAL                                                                                                                | string                            |
+| ^                   | >          | Provides option to arbitrarily group different elements together, by assigning them to the same class.                |                                   |
+| ^                   | >          | Used for targeting such groups with CSS and/or JS.                                                                    |                                   |
+| **colspan**         | general    | `<td>` `<th>`                                                                                                         | integer                           |
+| ^                   | >          | The number of columns a cell should extend to.                                                                        |                                   |
+| ^                   | >          | <aside>This number includes the cell's own column, so <code>colspan="1"</code> does nothing.</aside>                  |                                   |
+| ^                   | >          | <aside>:fa-info-circle: Similar to `rowspan`.</aside>                                                                 |                                   |
+| **content**         | general    | `<meta>`                                                                                                              | string                            |
+| ^                   | >          | :fa-info-circle: Paired with *`name`* attribute.                                                                      |                                   |
+| ^                   | >          | Represents the 'value' in a 'key-value' pair.                                                                         |                                   |
+| ^                   | >          | Provides a way to associate non-canonical properties with the object, that's only meaningful for certain consumers.   |                                   |
+| ^                   | >          | <aside>E.g.: web crawlers.</aside>                                                                                    |                                   |
+| **contenteditable** | general    | GLOBAL                                                                                                                | keyword                           |
+| ^                   | >          | Changes the element's content's editability.                                                                          |                                   |
+| ^                   | ^          |                                                                                                                       |                                   |
+| **contextmenu**     | general    | GLOBAL                                                                                                                | string                            |
+| ^                   | >          | <!--TODO-->                                                                                                           |                                   |
+| **controls**        | boolean    | `<audio>` `<video>`                                                                                                   | boolean                           |
+| ^                   | >          | Adds controls to the media.                                                                                           |                                   |
+| **crossorigin**     | general    | `<audio>` `<img>` `<link>` `<script>` `<video>`                                                                       | keyword                           |
+| ^                   | >          | Defines how to handle cross-origin requests.                                                                          |                                   |
+| **default**         | boolean    | `<track>`                                                                                                             | boolean                           |
+| ^                   | >          | Hints which track should be enabled.                                                                                  |                                   |
+| ^                   | >          | Overridden by user settings.                                                                                          |                                   |
+| **defer**           | boolean    | `<script>`                                                                                                            | boolean                           |
+| ^                   | >          | Indicates the script should be executed after the document is parsed, but before firing `DOMContentLoaded`.           |                                   |
+| ^                   | >          | :fa-exclamation-circle: Has no effect on inline scripts.                                                              |                                   |
+| **disabled**        | boolean    | `<button>` `<fieldset>` `<input>` `<optgroup>` `<option>` `<select>` `<textarea>`                                     | boolean                           |
+| ^                   | >          | Sets the element non-interactable.                                                                                    |                                   |
+| **download**        | ???        | `<a>` `<area>`                                                                                                        | ???                               |
+| ^                   | >          | Indicates that the hyperlink is for downloading a resource.                                                           |                                   |
+| **draggable**       | general    | GLOBAL                                                                                                                | keyword                           |
+| ^                   | >          | Indicates whether the element can be dragged.                                                                         | 'true' *or* 'false'               |
+| ^                   | >          | :fa-exclamation-circle: **Not ~~boolean~~, always should have an assigned value of either *'true'* or *'false'*!**    |                                   |
+| **for**             | general    | `<label>` `<output>`                                                                                                  | string (id)                       |
+| ^                   | >          | Indicates which element this one belongs to by adding the target element's `id`.                                      |                                   |
+| **form**            | general    | `<button>` `<fieldset>` `<input>` `<label>` `<meter>` `<object>` `<output>` `<progress>` `<select>` `<textarea>`      | string                            |
+| ^                   | >          | Indicates which form element this one belongs to.                                                                     |                                   |
+| **hidden**          | enumerated | GLOBAL                                                                                                                | keyword                           |
+| ^                   | >          | Indicates if the element should not be rendered.                                                                      | '', 'hidden', ='until-found'      |
+| ^                   | >          | If absent, the element presented as normal.                                                                           |                                   |
+| ^                   | >          | If present without assigned value, the element is hidden.                                                             |                                   |
+| ^                   | >          | If it's `hidden='until-found'`, the element is only shown when referenced or searched for.                            |                                   |
+| **href**            | general    | `<a>` `<area>` `<base>` `<link>`                                                                                      | URL                               |
+| ^                   | >          | The URL of a linked resource.                                                                                         |                                   |
+| ^                   | >          | <aside>:fa-info-circle: Similar to `src`, but for linked resources.</aside>                                           |                                   |
+| **id**              | general    | GLOBAL                                                                                                                | string                            |
+| ^                   | >          | Provides option to uniquely identify the element by assigning an id to it.                                            |                                   |
+| ^                   | >          | Used for targeting such element with an other element's `for` attribute or CSS, JS.                                   |                                   |
+| **inputmode**       | enumerated | `<textarea>` `contenteditable`                                                                                        | keyword                           |
+| ^                   | >          | Hints the type of data, that may be entered by user.  <!--TODO: Move values to the next column-->                     |                                   |
+| ^                   | >          | Values = 'none', 'text', 'decimal', 'numeric', 'tel', 'search', 'email', 'url'                                        |                                   |
+| **label**           | general    | `<optgroup>` `<option>` `<track>`                                                                                     | string                            |
+| ^                   | >          | Adds user-readable title to the element.                                                                              |                                   |
+| **lang**            | general    | GLOBAL                                                                                                                | keyword                           |
+| ^                   | >          | Hints the language used in the element.                                                                               |                                   |
+| ~~language~~        | general    | `<script>`                                                                                                            | string                            |
+| ^                   | >          | :fa-times-circle: Use `type` instead!                                                                                 |                                   |
+| ^                   | >          | Supposed to identify the scripting language used, but was never standardised.                                         |                                   |
+| **list**            | general    | `<input>`                                                                                                             | string                            |
+| ^                   | >          | Points to predefined options for the input.                                                                           |                                   |
+| ^                   | >          | Should be the id of a `<datalist>` element of the same document.                                                      |                                   |
+| **loop**            | boolean    | `<audio>` `<marquee>` `<video>`                                                                                       | boolean                           |
+| ^                   | >          | Indicates that the media should repeat indefinitely.                                                                  |                                   |
+| **max**             | general    | `<input>` `<meter>` `<progress>`                                                                                      | number, date, time                |
+| ^                   | >          | Sets the maximum allowed value.                                                                                       |                                   |
+| ^                   | >          | :fa-info-circle: Coupled with `min` `step`.                                                                           |                                   |
+| **maxlength**       | general    | `<input>` `<textarea>`                                                                                                | non-negative integer              |
+| ^                   | >          | Sets the maximum length of an input string.                                                                           |                                   |
+| ^                   | >          | :fa-info-circle: Coupled with `minlength`.                                                                            |                                   |
+| **method**          | enumerated | `<form>`                                                                                                              | 'get' (default), 'post', 'dialog' |
+| ^                   | >          | Defines the HTTP method used on submission.                                                                           |                                   |
+| **min**             | general    | `<input>` `<meter>` `<progress>`                                                                                      | number, date, time                |
+| ^                   | >          | Sets the minimum allowed value.                                                                                       |                                   |
+| ^                   | >          | :fa-info-circle: Coupled with `max` `step`.                                                                           |                                   |
+| **minlength**       | general    | `<input>` `<textarea>`                                                                                                | non-negative integer              |
+| ^                   | >          | Sets the minimum length of an input string.                                                                           |                                   |
+| ^                   | >          | :fa-info-circle: Coupled with `maxlength`.                                                                            |                                   |
+| **muted**           | boolean    | `<audio>` `<video>`                                                                                                   | boolean                           |
+| ^                   | >          | Sets the media to be initially silenced.                                                                              |                                   |
+| **name**            | general    | `<meta>`                                                                                                              | string                            |
+| ^                   | >          | :fa-info-circle: Paired with *`content`* attribute.                                                                   |                                   |
+| ^                   | >          | Represents the 'key' in a 'key-value' pair.                                                                           |                                   |
+| ^                   | >          | Provides a way to associate non-canonical properties with the object, that's only meaningful for certain consumers.   |                                   |
+| ^                   | >          | <aside>E.g.: web crawlers.</aside>                                                                                    |                                   |
+| **novalidate**      | boolean    | `<form>`                                                                                                              | boolean                           |
+| ^                   | >          | Indicates that the form shouldn't be validated on submission.                                                         |                                   |
+| **pattern**         | general    | `<input>`                                                                                                             | string (regexp expression)        |
+| ^                   | >          | The inputted value will be checked against this expression.                                                           |                                   |
+| **placeholder**     | general    | `<input>` `<textarea>`                                                                                                | string                            |
+| ^                   | >          | Its value displayed in the empty field.                                                                               |                                   |
+| ^                   | >          | <aside>Used for giving a hint to the user regarding what to enter in the field.</aside>                               |                                   |
+| **poster**          | general    | `<video>`                                                                                                             | URL                               |
+| ^                   | >          | URL to a frame to be displayed until the video is played or seeked.                                                   |                                   |
+| **preload**         | enumerated | `<audio>` `<video>`                                                                                                   | keyword                           |
+| ^                   | >          | Indicates what should be preloaded.                                                                                   | 'none', 'metadata', 'auto' = ''   |
+| **readonly**        | boolean    | `<input>` `<textarea>`                                                                                                | boolean                           |
+| ^                   | >          | Renders the input field non-editable by user.                                                                         |                                   |
+| ^                   | >          | Only applies to text inputs.                                                                                          |                                   |
+| ^                   | >          | :fa-info-circle: For other input types the *`disabled`* attribute gives equivalent functionality.                     |                                   |
+| ^                   | >          | :fa-info-circle: `readonly` fields skipped during constraint validation.                                              |                                   |
+| **rel**             | general    | `<a>` `<area>` `<link>` `<form>`?                                                                                     | keyword                           |
+| ^                   | >          | Indicates relationship between the document and the linked resource.                                                  |                                   |
+| ^                   | >          | Used by browsers and crawlers.                                                                                        |                                   |
+| **required**        | boolean    | `<input>` `<select>` `<textarea>`                                                                                     | boolean                           |
+| ^                   | >          | Doesn't let the form to be submitted, until the user specifies a value in its field.                                  |                                   |
+| **reversed**        | boolean    | `<ol>`                                                                                                                | boolean                           |
+| ^                   | >          | Indicates that the list should be displayed in an ascending order.                                                    |                                   |
+| **role**            | general    | GLOBAL                                                                                                                | keyword                           |
+| ^                   | >          | Explicitly sets the element's ARIA role.                                                                              |                                   |
+| ^                   | >          | <aside>:fa-info-circle: Useful for elements without intrinsic roles or if used in a non-canonical manner.</aside>     |                                   |
+| **rowspan**         | general    | `<td>` `<th>`                                                                                                         | integer                           |
+| ^                   | >          | The number of rows a cell should extend to.                                                                           |                                   |
+| ^                   | >          | <aside>This number includes the cell's own row, so <code>rowspan="1"</code> does nothing.</aside>                     |                                   |
+| ^                   | >          | <aside>:fa-info-circle: Similar to `colspan`.</aside>                                                                 |                                   |
+| **selected**        | boolean    | `<option>`                                                                                                            | boolean                           |
+| ^                   | >          | Indicates that this option should be selected on page load.                                                           |                                   |
+| **spellcheck**      | enumerated | GLOBAL                                                                                                                | keyword                           |
+| ^                   | >          | Hints whether the element should be checked for spelling errors.                                                      | 'true' or 'false'                 |
+| ^                   | >          | :fa-exclamation-circle: Should be set to 'false' for elements that may contain sensitive information!                 |                                   |
+| **src**             | general    | `<audio>` `<embed>` `<iframe>` `<img>` `<input>` `<script>` `<source>` `<track>` `<video>`                            | URL                               |
+| ^                   | >          | The URL of the embedded content.                                                                                      |                                   |
+| ^                   | >          | <aside>:fa-info-circle: Similar to `href`, but for embedded content.</aside>                                          |                                   |
+| **start**           | general    | `<ol>`                                                                                                                | integer                           |
+| ^                   | >          | Sets the starting value for ordered list items.                                                                       |                                   |
+| ^                   | >          | :fa-info-circle: Always numeric, even if the numbering `type` is alphabetic or roman.                                 |                                   |
+| **step**            | general    | `<input>`                                                                                                             | number                            |
+| ^                   | >          | Sets the stepping interval for numeric input types including date, time types and range besides number.               |                                   |
+| ^                   | >          | :fa-info-circle: Coupled with `max` `min`, but only valid for `<input>`.                                              |                                   |
+| ~~style~~           | general    | GLOBAL                                                                                                                | CSS declarations                  |
+| ^                   | >          | Provides *inline* CSS style declarations for the element.                                                             |                                   |
+| ^                   | >          | :fa-exclamation-circle: Inline CSS should be avoided. :fa-check-circle: Use external CSS instead!                     |                                   |
+| ^                   | >          | :fa-exclamation-circle: Not to be confused with the ~~`<style>`~~ element.                                            |                                   |
+| ~~summary~~         | general    | `<table>`                                                                                                             | string                            |
+| ^                   | >          | Used to describe contents of the table.                                                                               |                                   |
+| ^                   | >          | :fa-times-circle: Obsolete. :fa-check-circle: Use `<caption>` element instead!^*^                                     |                                   |
+| **tabindex**        | general    | GLOBAL                                                                                                                | integer                           |
+| ^                   | >          | Overrides the default tab order by specifying the element's position in the sequence.                                 |                                   |
+| ^                   | >          | :fa-info-circle: Setting it to a positive value will force the element on top of the natural tab sequence.            |                                   |
+| ^                   | >          | :fa-info-circle: Zero means that the element will be forced into the tab sequence, but will follow its natural order. |                                   |
+| ^                   | >          | :fa-info-circle: A negative value means that the element will be excluded.                                            |                                   |
+| ^                   | >          | :fa-info-circle: These settings can override the element's natural behaviour.                                         |                                   |
+| **target**          | general    | `<a>` `<area>` `<base>` `<form>`                                                                                      | keyword or string                 |
+| ^                   | >          | Specifies where to open linked documents.                                                                             |                                   |
+| ^                   | >          | <aside>In case of forms, it's the response after submitting it.</aside>                                               |                                   |
+| **title**           | general    | GLOBAL                                                                                                                | string                            |
+| ^                   | >          | Tooltip to display when hovering over the element.                                                                    |                                   |
+| ^                   | >          | :fa-exclamation-circle: Not to be confused with ~~`<title>`~~ element!                                                |                                   |
+| **translate**       | enumerated | GLOBAL                                                                                                                | '' = 'yes', 'no'                  |
+| ^                   | >          | Hints whether the element's text content should be subject to translation.                                            |                                   |
+| ^                   | >          | <aside>:fa-info-circle: E.g.: to protect brand names from being translated.</aside>                                   |                                   |
+| **type**            | general    | `<button>` `<input>` `<ol>` `<link>`                                                                                  | keyword                           |
+| ^                   | >          | Sets the default behaviour or input type for the element. Each element has its own specific types.                    |                                   |
+| **type**            | general    | `<embed>` `<object>` `<script>` `<source>` `<link>`                                                                   | keyword                           |
+| ^                   | >          | Sets the MIME type for the element. Each element has its own specific types.                                          |                                   |
+| ~~type~~            | general    | ~~`<style>`~~ `<menu>`                                                                                                | keyword                           |
+| ^                   | >          | :fa-times-circle: `<style>`'s `type` attribute is deprecated, if present should be 'text/css'.                        |                                   |
+| ^                   | >          | :fa-times-circle: `<menu>` is referenced, but doesn't list `type` as a valid attribute.                               |                                   |
+| **value**           | general    | `<button>` `<data>` `<input>` `<li>` `<meter>` `<option>` `<progress>` `<param>`                                      | string                            |
+| ^                   | >          | Sets default value to be displayed and submitted (if not changed by user).                                            |                                   |
+| **wrap**            | enumerated | `<textarea>`                                                                                                          | keyword                           |
+| ^                   | >          | Defines word wrap for the element's content.                                                                          |                                   |
+
+<!--TODO: List acceptable keywords for each attribute, that require specific strings as input!--> <!--Uhh, ...somewhere.-->
+\* See: https://html.spec.whatwg.org/multipage/tables.html#table-descriptions-techniques
 ## TAGS
 
 <nav>
