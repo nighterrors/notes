@@ -38,25 +38,27 @@ HyperText Markup Language
 	- [TOC](#toc)
 	- [INTRODUCTION](#introduction)
 	- [ENTITIES](#entities)
-	- [ATTRIBUTES](#attributes)
 		- [Anatomy](#anatomy)
+		- [Common Examples](#common-examples)
+	- [ATTRIBUTES](#attributes)
+		- [Anatomy](#anatomy-1)
 			- [General](#general)
 			- [Boolean](#boolean)
 		- [Classification](#classification)
 			- [By Type](#by-type)
 			- [By Scope](#by-scope)
-		- [Common Examples](#common-examples)
+		- [Common Examples](#common-examples-1)
 	- [TAGS](#tags)
-		- [Anatomy](#anatomy-1)
+		- [Anatomy](#anatomy-2)
 			- [General](#general-1)
 			- [Container tag](#container-tag)
 			- [Empty tag](#empty-tag)
 			- [Self-closing tag](#self-closing-tag)
 		- [Special "tag-level" components](#special-tag-level-components)
 		- [Classification](#classification-1)
-		- [Common Examples](#common-examples-1)
+		- [Common Examples](#common-examples-2)
 	- [ELEMENTS](#elements)
-		- [Anatomy](#anatomy-2)
+		- [Anatomy](#anatomy-3)
 		- [Classification](#classification-2)
 			- [Representation](#representation)
 			- [Relationship](#relationship)
@@ -109,6 +111,60 @@ In this document I refer to the contents of an HTML as [*tags*](#tags), which ca
 </nav>
 
 <!--TODO!!!-->
+
+### Anatomy
+
+<!--TODO!!!-->
+
+### Common Examples
+
+<!--TODO!!!-->
+| Character            | Entity Name | Entity Code | Reason to Substitute                                 |
+| -------------------: | ----------- | ----------- | ---------------------------------------------------- |
+| &lt;                 | `&lt;`      | `&#x003C;`  | Reserved: beginning of a tag                         |
+| &gt;^*^              | `&gt;`      | `&#x003E;`  | Reserved: ending of a tag                            |
+| &                    | `&amp;`     | `&#x0026;`  | Reserved: beginning of an entity                     |
+| ;                    | `&semi;`    | `&#x003B;`  | Interpreted: ending of an entity                     |
+| '                    | `&apos;`    | `&#x0027;`  | Reserved: beginning and ending of an attribute value |
+| "                    | `&quot;`    | `&#x0022;`  | Reserved: beginning and ending of an attribute value |
+| `                    | `&grave;`   | `&#x0060;`  | Interpreted (markdown): code                         |
+| /                    | `&sol;`     | `&#x002F;`  | Interpreted: part of self-closing sequence           |
+| \                    | `&bsol;`    | `&#x005C;`  | Interpreted: escape character                        |
+| &vert;               | `&vert;`    | `&#x007C;`  | Interpreted (markdown/table): cell separator         |
+| [newline] (CR)       | `&NewLine;` | `&#x000D;`  | Interpreted: whitespace                              |
+| [newline] (LF)       | `&NewLine;` | `&#x000A;`  | Interpreted: whitespace                              |
+| [non-breaking space] | `&nbsp;`    | `&#x00A0;`  | May be interpreted: whitespace; Not on keyboard      |
+| [tab]                | `&Tab;`     | `&#x0009;`  | May be interpreted: whitespace                       |
+| &ndash;              | `&ndash;`   | `&#x2013;`  | Not on keyboard                                      |
+| &mdash;              | `&mdash;`   | `&#x2014;`  | Not on keyboard                                      |
+| ©                    | `&copy;`    | `&#x00A9;`  | Not on keyboard                                      |
+| ®                    | `&reg;`     | `&#x00AE;`  | Not on keyboard                                      |
+| ™                    | `&trade;`   | `&#x2122;`  | Not on keyboard                                      |
+| ≈                    | `&asymp;`   | `&#x2248;`  | Not on keyboard                                      |
+| ≠                    | `&ne;`      | `&#x2260;`  | Not on keyboard                                      |
+| £                    | `&pound;`   | `&#x00A3;`  |                                                      |
+| €                    | `&euro;`    | `&#x20AC;`  |                                                      |
+| °                    | `&deg;`     | `&#x00B0;`  |                                                      |
+| $                    | `&dollar;`  | `&#x0024;`  |                                                      |
+| #                    | `&num;`     | `&#x0023;`  |                                                      |
+| @                    | `&commat;`  | `&#x0040;`  |                                                      |
+|                      | `&;`        | `&#x;`      |                                                      |
+
+<aside>* A single > seems to break my md parser somehow, so I had to add something else that would render to make the &gt; visible.</aside>
+
+Explanation:
+
+Reserved
+	:	These characters are reserved for a special purpose.
+	:	:fa-exclamation-circle: Using them literally may break your code at worst, or at best they won't render.
+
+Interpreted
+	:	These character have special meaning.
+	:	:fa-exclamation-circle: In certain cases they may behave similarly to reserved characters.
+
+Not on keyboard
+	:	These characters may be difficult to produce on some keyboards.
+	:	:fa-info-circle: Keep in handy the ones you can't find on yours!
 
 ## ATTRIBUTES
 
