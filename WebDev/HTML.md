@@ -696,6 +696,13 @@ Properly formatted html consists of the following parts, in the following order:
 
 #### Hierarchy
 
+1. `<table>`
+	- `<tr>`
+		- \[`<th>`]
+		- `<td>`
+
+<!--TODO-->
+
 ### Form
 
 <!--TODO-->
