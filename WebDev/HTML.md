@@ -124,6 +124,54 @@ In this document I refer to the contents of an HTML as [*tags*](#tags), which ca
 
 #### Anatomy
 
+- The commonly used entities (and many more) have names, by which they can be referred to:
+
+```
+`&` - indicates beginning
+ |
+ | mnemonic name of the entity
+ |  |
+ |  |  `;` - indicates end
+ |  |   |
+ |/-^--\|
+ &entity;
+```
+
+- Even though some don't have name, all of them can be referred to by they UTF code.
+	- Either in hexadecimal,
+
+	```
+	`&`
+	 | `#` - indicates numeric form
+	 |  |
+	 |  | hexadecimal number
+	 |  |  |
+	  \ |  | `;`
+	   ||/-^-\|
+	   &#x001F;
+	     |\/
+	    /  \
+	   |  optional 0-padding
+	   |
+	leading 'x' indicates hexadecimal base
+	```
+
+	- Or decimal form
+
+	```
+	`&`
+	 |`#` - indicates numeric form
+	 | |
+	 | | decimal number
+	 | | |
+	 \ | |`;`
+	  ||/^\|
+	  &#190;
+	   \/
+	no base-indicator means it'll be interpreted as decimal number
+	```
+
+
 #### Common Examples
 
 <!--TODO!!!-->
