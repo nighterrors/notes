@@ -37,6 +37,7 @@ HyperText Markup Language
 - [HTML](#html)
 	- [TOC](#toc)
 	- [INTRODUCTION](#introduction)
+	- [ENTITIES](#entities)
 	- [ATTRIBUTES](#attributes)
 		- [Anatomy](#anatomy)
 			- [General](#general)
@@ -95,6 +96,11 @@ HyperText Markup Language
 In this document I refer to the contents of an HTML as [*tags*](#tags), which can have [*attributes*](#attributes). These have an abstract counterpart of a corresponding *object* and its *properties*. Objects in the scope of web pages are referred to as [*elements*](#elements).
 
 ---
+
+## ENTITIES
+
+<!--TODO: navigation-->
+<!--TODO!!!-->
 
 ## ATTRIBUTES
 
