@@ -72,12 +72,14 @@ HyperText Markup Language
 			- [Embedded](#embedded)
 			- [Interactive](#interactive)
 			- [(Palpable)](#palpable)
-	- [PAGE](#page)
-		- [Classification](#classification-3)
-		- [Anatomy](#anatomy-3)
+	- [CONSTRUCTS](#constructs)
+		- [Page](#page)
+			- [Hierarchy](#hierarchy)
+		- [Table](#table)
+			- [Hierarchy](#hierarchy-1)
+		- [Form](#form)
+			- [Hierarchy](#hierarchy-2)
 	- [REFERENCES](#references)
-
----
 
 ## INTRODUCTION
 
@@ -619,8 +621,10 @@ Inline
 
 #### (Palpable)
 
-## PAGE
 
+
+## CONSTRUCTS
+<!--FXME: Navigation-->
 <nav>
 
 | >                                             | [:fa-chevron-circle-up:Top](#top)         |                                              |
@@ -632,15 +636,14 @@ Inline
 
 ### Classification
 
-Single-page
-	:	<!--TODO-->
+### Page
 
 Multi-page
 	:	<!--TODO-->
 
 ### Anatomy
 
-Properly formatted html consists of the following parts, in the following order:
+#### Hierarchy
 
 0. \[Byte Order Mark]
 1. \[Comments &| whitespace]
@@ -667,6 +670,22 @@ Properly formatted html consists of the following parts, in the following order:
 ```
 
 <!--TODO-->
+
+### Table
+
+<!--TODO-->
+
+#### Hierarchy
+
+### Form
+
+<!--TODO-->
+
+#### Hierarchy
+
+<!--TODO-->
+
+---
 
 ## REFERENCES
 
