@@ -37,9 +37,11 @@ HyperText Markup Language
 - [HTML](#html)
 	- [TOC](#toc)
 	- [INTRODUCTION](#introduction)
-	- [ENTITIES](#entities)
-		- [Anatomy](#anatomy)
-		- [Common Examples](#common-examples)
+	- [RESERVED CHARACTERS \& ENTITIES](#reserved-characters--entities)
+		- [Reserved Characters](#reserved-characters)
+		- [Entities](#entities)
+			- [Anatomy](#anatomy)
+			- [Common Examples](#common-examples)
 	- [ATTRIBUTES](#attributes)
 		- [Anatomy](#anatomy-1)
 			- [General](#general)
@@ -88,10 +90,10 @@ HyperText Markup Language
 
 <nav>
 
-| >                                        | [:fa-chevron-circle-up:Top](#top)         |                                            |
-| ---------------------------------------- | :---------------------------------------: | -----------------------------------------: |
-| [:fa-chevron-circle-left:Previous](#toc) |                                           | [:fa-chevron-circle-right:Next](#entities) |
-| >                                        | [:fa-chevron-circle-down:Bottom](#bottom) |                                            |
+| >                                        | [:fa-chevron-circle-up:Top](#top)         |                                                                 |
+| ---------------------------------------- | :---------------------------------------: | --------------------------------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#toc) |                                           | [:fa-chevron-circle-right:Next](#reserved-characters--entities) |
+| >                                        | [:fa-chevron-circle-down:Bottom](#bottom) |                                                                 |
 
 </nav>
 
@@ -99,7 +101,7 @@ In this document I refer to the contents of an HTML as [*tags*](#tags), which ca
 
 ---
 
-## ENTITIES
+## RESERVED CHARACTERS & ENTITIES
 
 <nav>
 
@@ -112,11 +114,17 @@ In this document I refer to the contents of an HTML as [*tags*](#tags), which ca
 
 <!--TODO!!!-->
 
-### Anatomy
+### Reserved Characters
 
 <!--TODO!!!-->
 
-### Common Examples
+### Entities
+
+<!--TODO!!!-->
+
+#### Anatomy
+
+#### Common Examples
 
 <!--TODO!!!-->
 | Character            | Entity Name | Entity Code | Reason to Substitute                                 |
@@ -170,10 +178,10 @@ Not on keyboard
 
 <nav>
 
-| >                                             | [:fa-chevron-circle-up:Top](#top)         |                                        |
-| --------------------------------------------- | :---------------------------------------: | -------------------------------------: |
-| [:fa-chevron-circle-left:Previous](#entities) |                                           | [:fa-chevron-circle-right:Next](#tags) |
-| >                                             | [:fa-chevron-circle-down:Bottom](#bottom) |                                        |
+| >                                                                  | [:fa-chevron-circle-up:Top](#top)         |                                        |
+| ------------------------------------------------------------------ | :---------------------------------------: | -------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#reserved-characters--entities) |                                           | [:fa-chevron-circle-right:Next](#tags) |
+| >                                                                  | [:fa-chevron-circle-down:Bottom](#bottom) |                                        |
 
 </nav>
 
