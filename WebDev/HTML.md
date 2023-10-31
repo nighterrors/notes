@@ -649,19 +649,27 @@ Inline
 
 ### Page
 
-Multi-page
-	:	<!--TODO-->
+Properly formatted html consists of the following parts, in the following order:
 
-### Anatomy
+1. \[Byte Order Mark]
+2. \[Comments &| whitespace]
+3. [DOCTYPE](#special-tag-level-components)
+4. \[Comments &| whitespace]
+5. Document element (`<html>`\[...]`</html>`)
+6. \[Comments &| whitespace]
 
 #### Hierarchy
 
-0. \[Byte Order Mark]
-1. \[Comments &| whitespace]
-2. [DOCTYPE](#special-tag-level-components)
-3. \[Comments &| whitespace]
-4. Document element (`<html>`\[...]`</html>`)
-5. \[Comments &| whitespace]
+1. `<!DOCTYPE html>`
+2. `<html>`
+	1. `<head>`
+		- \[`<base />`]
+		- \[`<link />`]
+		- \[`<meta />`]
+		- \[`<script>`]
+		- \[`<style>`]
+	2. `<body>`
+		- elements of the page <!--TODO-->
 
 <!--TODO-->
 ```
