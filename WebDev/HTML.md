@@ -510,6 +510,9 @@ Self-closing
 <!--TODO: Decide: Introduce tags here, and only group them in elements, maybe?-->
 
 ---
+<aside>So far these were mostly structural components in the source code of a given document. Now let's see how a page emerges from these microstructures!</aside>
+
+---
 
 ## ELEMENTS
 
