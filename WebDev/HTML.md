@@ -86,10 +86,10 @@ HyperText Markup Language
 
 <nav>
 
-| >                                        | [:fa-chevron-circle-up:Top](#top)         |                                              |
-| ---------------------------------------- | :---------------------------------------: | -------------------------------------------: |
-| [:fa-chevron-circle-left:Previous](#toc) |                                           | [:fa-chevron-circle-right:Next](#attributes) |
-| >                                        | [:fa-chevron-circle-down:Bottom](#bottom) |                                              |
+| >                                        | [:fa-chevron-circle-up:Top](#top)         |                                            |
+| ---------------------------------------- | :---------------------------------------: | -----------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#toc) |                                           | [:fa-chevron-circle-right:Next](#entities) |
+| >                                        | [:fa-chevron-circle-down:Bottom](#bottom) |                                            |
 
 </nav>
 
@@ -99,17 +99,25 @@ In this document I refer to the contents of an HTML as [*tags*](#tags), which ca
 
 ## ENTITIES
 
-<!--TODO: navigation-->
+<nav>
+
+| >                                                 | [:fa-chevron-circle-up:Top](#top)         |                                              |
+| ------------------------------------------------- | :---------------------------------------: | -------------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#introduction) |                                           | [:fa-chevron-circle-right:Next](#attributes) |
+| >                                                 | [:fa-chevron-circle-down:Bottom](#bottom) |                                              |
+
+</nav>
+
 <!--TODO!!!-->
 
 ## ATTRIBUTES
 
 <nav>
 
-| >                                                 | [:fa-chevron-circle-up:Top](#top)         |                                        |
-| ------------------------------------------------- | :---------------------------------------: | -------------------------------------: |
-| [:fa-chevron-circle-left:Previous](#introduction) |                                           | [:fa-chevron-circle-right:Next](#tags) |
-| >                                                 | [:fa-chevron-circle-down:Bottom](#bottom) |                                        |
+| >                                             | [:fa-chevron-circle-up:Top](#top)         |                                        |
+| --------------------------------------------- | :---------------------------------------: | -------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#entities) |                                           | [:fa-chevron-circle-right:Next](#tags) |
+| >                                             | [:fa-chevron-circle-down:Bottom](#bottom) |                                        |
 
 </nav>
 
@@ -524,10 +532,10 @@ Self-closing
 
 <nav>
 
-| >                                               | [:fa-chevron-circle-up:Top](#top)         |                                        |
-| ----------------------------------------------- | :---------------------------------------: | -------------------------------------: |
-| [:fa-chevron-circle-left:Previous](#attributes) |                                           | [:fa-chevron-circle-right:Next](#page) |
-| >                                               | [:fa-chevron-circle-down:Bottom](#bottom) |                                        |
+| >                                         | [:fa-chevron-circle-up:Top](#top)         |                                              |
+| ----------------------------------------- | :---------------------------------------: | -------------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#tags) |                                           | [:fa-chevron-circle-right:Next](#constructs) |
+| >                                         | [:fa-chevron-circle-down:Bottom](#bottom) |                                              |
 
 </nav>
 
@@ -725,10 +733,10 @@ Properly formatted html consists of the following parts, in the following order:
 
 <nav>
 
-| >                                         | [:fa-chevron-circle-up:Top](#top)         |                               |
-| ----------------------------------------- | :---------------------------------------: | ----------------------------: |
-| [:fa-chevron-circle-left:Previous](#page) |                                           | :fa-chevron-circle-right:Next |
-| >                                         | [:fa-chevron-circle-down:Bottom](#bottom) |                               |
+| >                                               | [:fa-chevron-circle-up:Top](#top)         |                               |
+| ----------------------------------------------- | :---------------------------------------: | ----------------------------: |
+| [:fa-chevron-circle-left:Previous](#constructs) |                                           | :fa-chevron-circle-right:Next |
+| >                                               | [:fa-chevron-circle-down:Bottom](#bottom) |                               |
 
 </nav>
 
