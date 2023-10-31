@@ -20,6 +20,8 @@
 </nav>
 
 HyperText Markup Language
+<!--TODO: Mention HTML5-->
+<!--TODO: Replace inline external links with footnotes to citations!-->
 
 ## TOC
 
@@ -132,7 +134,7 @@ attribute's name `=` it's associated value
 	And double quotes (`"`) for specific terms, that don't have implied meaning beside their value.
 		- <aside>E.g.: <code>'true'</code>, <code>target='_blank'</code>, <code>lang='en_GB'</code></aside>
 		- <aside>E.g.: <code>id="arbitrary-string"</code>, <code>class="my-class"</code>, <code>alt="Image description goes here."</code></aside>
-- <!--TODO: IDK, what I wanted to add here:c-->
+<!--- <TODO: IDK, what I wanted to add here:c-->
 
 #### Boolean
 
@@ -497,6 +499,7 @@ Self-closing
 ### Common Examples
 
 <!--TODO-->
+<!--TODO: Decide: Introduce tags here, and only group them in elements, maybe?-->
 
 ---
 
@@ -512,6 +515,7 @@ Self-closing
 </nav>
 
 An element is represented by its corresponding tag in HTML.
+<!--TODO: Mention inner/outer~text/html!-->
 
 ### Anatomy
 
@@ -537,7 +541,7 @@ An element is represented by its corresponding tag in HTML.
 
 #### Representation
 
-<!--TODO: IDK, not void?-->
+<!--TODO: IDK, not void? - see: https://html.spec.whatwg.org/multipage/syntax.html#elements-2 -->
 	:	
 
 Void
@@ -677,13 +681,17 @@ Properly formatted html consists of the following parts, in the following order:
 
 <!--Abbreviations-->
 
+*[ARIA]: Accessible Rich Internet Applications
 *[CSS]: Cascading Style Sheets
 *[HTML]: Hyper Text Markup Language
 *[HTTP]: HyperText Transfer Protocol
 *[JS]: Java Script
 *[MDN]: Mozilla Developer Network
+*[MIME]: Multipurpose Internet Mail Extensions
 *[SVG]: Scalable Vector Graphics
 *[TOC]: Table of Content
+*[WAI]: Works As Intended
+*[WAI-ARIA]: Web Accessibility Initiative - Accessible Rich Internet Applications
 *[XHTML]: XML compatible HTML
 *[XML]: eXtensible Markup Language
 
