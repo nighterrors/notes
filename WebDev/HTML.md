@@ -408,6 +408,8 @@ Tags indicate the beginning and/or end of an [element](#elements)'s description 
 
 #### General
 
+Every tag begins with an opening `<` character, followed by the tag's **name**, and ends with a whitespace separated list of optional attributes -in case of a self-closing tag the ` /` string- and finally the `>` character.
+
 ```
 opening angle-bracket
 |
@@ -419,6 +421,8 @@ opening angle-bracket
 ```
 
 #### Container tag
+
+Container tags are which have an opening and closing counterparts. The enclosed value isn't part of the tag, but only part of the element they describe.
 
 ```
   opening tag      nested value  closing tag
@@ -436,6 +440,8 @@ opening angle-bracket
 
 #### Empty tag
 
+Empty tags describe objects, that don't have (*and can't have*) nested internal elements.
+
 ```
  same as an opening tag
            |
@@ -451,6 +457,8 @@ opening angle-bracket
 ```
 
 #### Self-closing tag
+
+Self-closing tags are the same as empty tags, but in an XML-conforming notation.
 
 ```
  single tag only
@@ -493,10 +501,8 @@ Empty
 Self-closing
 	:	Same as empty, but has a trailing `/`.
 	:	The XML, XHTML, SVG compatible version of an empty tag.
-	:	>	:fa-exclamation-circle: Doesn't exist in HTML, but parsers interpret them as empty tags, so to maintain compatibility with XML* it is customary to use them instead of an empty tag.
-	:	>	:fa-exclamation-circle: If a leading whitespace is missing and the last attribute's value isn't quoted, the parser will assume that it's part of the attribute's value.  
-	E.g.: `<tag attribute=value/>` will be interpreted as the attribute having the value of "value/". To avoid this, (besides always quoting attr. values) a leading space should be added:  
-	`<tag attribute="value" />`.
+	:	>	:fa-exclamation-circle: Doesn't exist in HTML, but parsers interpret them as empty tags, so to maintain compatibility with XML~ it is customary to use them instead of an empty tag.
+	:	>	:fa-exclamation-circle: If a leading whitespace is missing and the last attribute's value isn't quoted, the parser will assume that it's part of the attribute's value.  <aside>E.g.: :fa-times-circle:`<tag attribute=value/>` will be interpreted as the attribute having the value of "value/". To avoid this, (besides always quoting attr. values) a leading space should be added: :fa-check-circle:`<tag attribute="value" />`.</aside>
 
 ### Common Examples
 
