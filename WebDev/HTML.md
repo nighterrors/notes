@@ -186,10 +186,10 @@ In this document I refer to the contents of an HTML as [*tags*](#tags), which ca
 | /                    | `&sol;`     | `&#x002F;`  | Interpreted: part of self-closing sequence           |
 | \                    | `&bsol;`    | `&#x005C;`  | Interpreted: escape character                        |
 | &vert;               | `&vert;`    | `&#x007C;`  | Interpreted (markdown/table): cell separator         |
-| [newline] (CR)       | `&NewLine;` | `&#x000D;`  | Interpreted: whitespace                              |
-| [newline] (LF)       | `&NewLine;` | `&#x000A;`  | Interpreted: whitespace                              |
 | [non-breaking space] | `&nbsp;`    | `&#x00A0;`  | May be interpreted: whitespace; Not on keyboard      |
 | [tab]                | `&Tab;`     | `&#x0009;`  | May be interpreted: whitespace                       |
+| [newline] (CR)       | `&NewLine;` | `&#x000D;`  | Interpreted: whitespace                              |
+| [newline] (LF)       | `&NewLine;` | `&#x000A;`  | Interpreted: whitespace                              |
 | &ndash;              | `&ndash;`   | `&#x2013;`  | Not on keyboard                                      |
 | &mdash;              | `&mdash;`   | `&#x2014;`  | Not on keyboard                                      |
 | ©                    | `&copy;`    | `&#x00A9;`  | Not on keyboard                                      |
@@ -197,9 +197,9 @@ In this document I refer to the contents of an HTML as [*tags*](#tags), which ca
 | ™                    | `&trade;`   | `&#x2122;`  | Not on keyboard                                      |
 | ≈                    | `&asymp;`   | `&#x2248;`  | Not on keyboard                                      |
 | ≠                    | `&ne;`      | `&#x2260;`  | Not on keyboard                                      |
+| °                    | `&deg;`     | `&#x00B0;`  |                                                      |
 | £                    | `&pound;`   | `&#x00A3;`  |                                                      |
 | €                    | `&euro;`    | `&#x20AC;`  |                                                      |
-| °                    | `&deg;`     | `&#x00B0;`  |                                                      |
 | $                    | `&dollar;`  | `&#x0024;`  |                                                      |
 | #                    | `&num;`     | `&#x0023;`  |                                                      |
 | @                    | `&commat;`  | `&#x0040;`  |                                                      |
@@ -851,19 +851,21 @@ Properly formatted html consists of the following parts, in the following order:
 
 <!--Abbreviations-->
 
-*[ARIA]: Accessible Rich Internet Applications
-*[CSS]: Cascading Style Sheets
-*[HTML]: Hyper Text Markup Language
-*[HTTP]: HyperText Transfer Protocol
-*[JS]: Java Script
-*[MDN]: Mozilla Developer Network
-*[MIME]: Multipurpose Internet Mail Extensions
-*[SVG]: Scalable Vector Graphics
-*[TOC]: Table of Content
-*[WAI]: Works As Intended
-*[WAI-ARIA]: Web Accessibility Initiative - Accessible Rich Internet Applications
-*[XHTML]: XML compatible HTML
-*[XML]: eXtensible Markup Language
+*[ARIA]:		Accessible Rich Internet Applications
+*[CSS]:			Cascading Style Sheets
+*[HTML]:		Hyper Text Markup Language
+*[HTTP]:		HyperText Transfer Protocol
+*[JS]:			Java Script
+*[MDN]:			Mozilla Developer Network
+*[MIME]:		Multi-purpose Internet Mail Extensions
+*[SVG]:			Scalable Vector Graphics
+*[TOC]:			Table of Content
+*[URI]:			Uniform Resource Identifier
+*[URL]:			Uniform Resource Locator
+*[WAI]:			Works As Intended
+*[WAI-ARIA]:	Web Accessibility Initiative - Accessible Rich Internet Applications
+*[XHTML]:		XML compatible HTML
+*[XML]:			eXtensible Markup Language
 
 ---
 
