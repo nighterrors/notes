@@ -37,7 +37,7 @@ HyperText Markup Language
 - [HTML](#html)
 	- [TOC](#toc)
 	- [INTRODUCTION](#introduction)
-	- [RESERVED CHARACTERS \& ENTITIES](#reserved-characters--entities)
+	- [CHARACTERS](#characters)
 		- [Reserved Characters](#reserved-characters)
 		- [Entities](#entities)
 			- [Anatomy](#anatomy)
@@ -90,10 +90,10 @@ HyperText Markup Language
 
 <nav>
 
-| >                                        | [:fa-chevron-circle-up:Top](#top)         |                                                                 |
-| ---------------------------------------- | :---------------------------------------: | --------------------------------------------------------------: |
-| [:fa-chevron-circle-left:Previous](#toc) |                                           | [:fa-chevron-circle-right:Next](#reserved-characters--entities) |
-| >                                        | [:fa-chevron-circle-down:Bottom](#bottom) |                                                                 |
+| >                                        | [:fa-chevron-circle-up:Top](#top)         |                                              |
+| ---------------------------------------- | :---------------------------------------: | -------------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#toc) |                                           | [:fa-chevron-circle-right:Next](#characters) |
+| >                                        | [:fa-chevron-circle-down:Bottom](#bottom) |                                              |
 
 </nav>
 
@@ -108,7 +108,7 @@ In this document I discuss the syntax used to markup HTML documents. I will refe
 
 ---
 
-## RESERVED CHARACTERS & ENTITIES
+## CHARACTERS
 
 <nav>
 
@@ -118,41 +118,6 @@ In this document I discuss the syntax used to markup HTML documents. I will refe
 | >                                                 | [:fa-chevron-circle-down:Bottom](#bottom) |                                              |
 
 </nav>
-
-### Reserved Characters
-
-In HTML the following characters have special meaning:
-
-`<` :fa-exclamation-circle:
-	:	beginning of a tag
-
-`>` :fa-exclamation-circle:
-	:	ending of tag
-
-`&` :fa-exclamation-circle:
-	:	beginning of an entity
-
-`;`
-	:	ending of an entity
-
-`'`, `"` :fa-exclamation-circle:
-	:	beginning and ending of attribute value
-<dd><aside>
-
-:fa-info-circle: Only have to escape / substitute them in an attribute's value.
-</aside></dd>
-
-`\`
-	:	escape character
-<dd><aside>
-
-:fa-info-circle: Can be used to interpret literally the following character.
-</aside></dd>
-
-`/`
-	:	part of closing sequence in closing tags and self-closing tags
-
-:fa-info-circle: You only really need to worry about the ones marked with :fa-exclamation-circle:, the other's won't cause any trouble on their own.
 
 HTML parsers treat whitespace characters (space, tab, newline) equally:
 
@@ -188,6 +153,41 @@ Sphinx     of
 </p>
 Can you tell which one's which?
 </aside>
+
+### Reserved Characters
+
+In HTML the following characters have special meaning:
+
+`<` :fa-exclamation-circle:
+	:	beginning of a tag
+
+`>` :fa-exclamation-circle:
+	:	ending of tag
+
+`&` :fa-exclamation-circle:
+	:	beginning of an entity
+
+`;`
+	:	ending of an entity
+
+`'`, `"` :fa-exclamation-circle:
+	:	beginning and ending of attribute value
+<dd><aside>
+
+:fa-info-circle: Only have to escape / substitute them in an attribute's value.
+</aside></dd>
+
+`\`
+	:	escape character
+<dd><aside>
+
+:fa-info-circle: Can be used to interpret literally the following character.
+</aside></dd>
+
+`/`
+	:	part of closing sequence in closing tags and self-closing tags
+
+:fa-info-circle: You only really need to worry about the ones marked with :fa-exclamation-circle:, the other's won't cause any trouble on their own.
 
 ### Entities
 
@@ -296,10 +296,10 @@ Not on keyboard
 
 <nav>
 
-| >                                                                  | [:fa-chevron-circle-up:Top](#top)         |                                        |
-| ------------------------------------------------------------------ | :---------------------------------------: | -------------------------------------: |
-| [:fa-chevron-circle-left:Previous](#reserved-characters--entities) |                                           | [:fa-chevron-circle-right:Next](#tags) |
-| >                                                                  | [:fa-chevron-circle-down:Bottom](#bottom) |                                        |
+| >                                               | [:fa-chevron-circle-up:Top](#top)         |                                        |
+| ----------------------------------------------- | :---------------------------------------: | -------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#characters) |                                           | [:fa-chevron-circle-right:Next](#tags) |
+| >                                               | [:fa-chevron-circle-down:Bottom](#bottom) |                                        |
 
 </nav>
 
