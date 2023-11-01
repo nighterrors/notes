@@ -119,11 +119,75 @@ In this document I discuss the syntax used to markup HTML documents. I will refe
 
 </nav>
 
-<!--TODO!!!-->
-
 ### Reserved Characters
 
-<!--TODO!!!-->
+In HTML the following characters have special meaning:
+
+`<` :fa-exclamation-circle:
+	:	beginning of a tag
+
+`>` :fa-exclamation-circle:
+	:	ending of tag
+
+`&` :fa-exclamation-circle:
+	:	beginning of an entity
+
+`;`
+	:	ending of an entity
+
+`'`, `"` :fa-exclamation-circle:
+	:	beginning and ending of attribute value
+<dd><aside>
+
+:fa-info-circle: Only have to escape / substitute them in an attribute's value.
+</aside></dd>
+
+`\`
+	:	escape character
+<dd><aside>
+
+:fa-info-circle: Can be used to interpret literally the following character.
+</aside></dd>
+
+`/`
+	:	part of closing sequence in closing tags and self-closing tags
+
+:fa-info-circle: You only really need to worry about the ones marked with :fa-exclamation-circle:, the other's won't cause any trouble on their own.
+
+HTML parsers treat whitespace characters (space, tab, newline) equally:
+
+- Whitespace is ignored on the beginning and end of a paragraph.
+- Whitespace between words replaced with a single space character.
+- Word wrap is taken care of by the renderer, so that the text would fit in its bounding box.
+
+<aside>
+
+:fa-info-circle: As a result, the two following paragraphs would render the exact same way:  
+
+```
+<p>Sphinx of black quartz, judge my vow!</p>
+```
+```
+<p>
+Sphinx     of 
+	black	 
+  quartz,
+ judge		 my vow!
+
+</p>
+```
+
+See?:
+<p>Sphinx of black quartz, judge my vow!</p>
+<p>
+Sphinx     of 
+	black	 
+  quartz,
+ judge		 my vow!
+
+</p>
+Can you tell which one's which?
+</aside>
 
 ### Entities
 
