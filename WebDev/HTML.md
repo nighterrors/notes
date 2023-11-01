@@ -366,15 +366,21 @@ Boolean attributes can have only 2 states: Either `true` or `false`. These state
 	:	<aside>Somewhere in-between a boolean and a more general attribute.</aside>
 	:	Has finite states, set via predefined keywords.
 	:	<aside>E.g.: <code></code> | <code>hidden</code> | <code>hidden='until-found'</code> sets an element to be visible | hidden | or to be only revealed when referenced or searched for.</aside>
-	<!--TODO: Further explanation, maybe?-->
+	:	Name
+		:	Identifies the attribute and the property it represents.
+		:	May determine a state on its own (like a boolean does).
+	:	Value
+		:	A specific identifier of one of its accepted states.
 
 [General attribute](https://developer.mozilla.org/en-US/docs/Glossary/Attribute "MDN Web Docs Glossary - Attribute")
 	:	Your everyday key-value pair. See: [anatomy](#general "General anatomy of an attribute").
 	:	Name
-		:	Identifies the attribute and the property it represents.
+		:	Serves only as an identifier for the attribute and the property it represents.
 	:	Value
 		:	Its associated value.
 		:	Types of accepted values depend on the attribute.
+			- Usually a keyword or a string / text, URL or even quoted CSS, JS.
+			- Can be numeric, date and/or time, etc.
 
 [Event handler attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes#event_handler_attributes "MDN Web Docs - HTML Attribute Reference / Event Handler Attributes")
 	:	Describe the *on*event behaviour of certain objects (that can have events).
