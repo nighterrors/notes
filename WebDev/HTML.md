@@ -53,10 +53,11 @@ HyperText Markup Language
 	- [TAGS](#tags)
 		- [Anatomy](#anatomy-2)
 			- [General](#general-1)
+			- [Doctype](#doctype)
+			- [Comment](#comment)
 			- [Container tag](#container-tag)
 			- [Empty tag](#empty-tag)
 			- [Self-closing tag](#self-closing-tag)
-		- [Special "tag-level" components](#special-tag-level-components)
 		- [Classification](#classification-1)
 		- [Common Examples](#common-examples-2)
 	- [ELEMENTS](#elements)
@@ -620,6 +621,43 @@ opening angle-bracket
 <tag>
 ```
 
+#### Doctype
+
+Must be the first line of the document, that isn't a whitespace or a comment.
+Hints that the document is supposed to be a correctly formed html file.
+
+```
+`<`
+ | case-insensitive
+ |      |     `>`
+ |      |      |
+ |/-----^-----\|
+ <!DOCTYPE html>
+  |\--v--/|\-v/
+  |   |   |  |
+ `!`  |  ` ` |
+      |    'html'
+  'doctype'
+```
+<aside>There really aren't many options for this, it's just that string, and that's it.</aside>
+
+#### Comment
+
+Comments are multi-line strings, that are ignored by the interpreter. They are a good way to leave notes for yourself and others for future reference.
+
+```
+opening sequence
+ |
+ | arbitrary text*
+ |     |
+ |     | closing sequence
+ |     |    |
+/^-\/--^--\/^\
+<!--comment-->
+```
+
+\* Can't contain `-->` though.
+
 #### Container tag
 
 Container tags are which have an opening and closing counterparts. The enclosed value isn't part of the tag, but only part of the element they describe.
@@ -675,18 +713,6 @@ tag's name  |        |
                      |
 whitespace + forward slash + closing angle-bracket
 ```
-
-### Special "tag-level" components<!--FXME: Better title/name-->
-
-Technically aren't tags, but just as important parts of the document.
-
-Comment
-	:	`<!--comment-->`
-	:	<!--TODO-->
-	
-Doctype
-	:	`<!DOCTYPE html>`
-	:	Must be the first line of the document, that isn't a whitespace or a comment
 
 ### Classification
 
