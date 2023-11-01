@@ -365,8 +365,6 @@ Non-global
 | **contenteditable** | general    | GLOBAL                                                                                                                | keyword                           |
 | ^                   | >          | Changes the element's content's editability.                                                                          |                                   |
 | ^                   | ^          |                                                                                                                       |                                   |
-| **contextmenu**     | general    | GLOBAL                                                                                                                | string                            |
-| ^                   | >          | <!--TODO-->                                                                                                           |                                   |
 | **controls**        | boolean    | `<audio>` `<video>`                                                                                                   | boolean                           |
 | ^                   | >          | Adds controls to the media.                                                                                           |                                   |
 | **crossorigin**     | general    | `<audio>` `<img>` `<link>` `<script>` `<video>`                                                                       | keyword                           |
