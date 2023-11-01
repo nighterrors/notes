@@ -1,7 +1,7 @@
 <nav id="top">
 
 [NOTES](../Index.md) / [Web Dev](Index.md) / [HTML](HTML.md)
-
+<!--FXME: I _REALLY_ shouldn't use tables for this:-->
 | [:fa-arrow-alt-circle-left:Theory](../Theory/Index.md) | [:fa-arrow-alt-circle-up:INDEX](../Index.md) | [:fa-arrow-alt-circle-right:Utilities](../Utilities/Index.md) |
 | ------------------------------------------------------ | :------------------------------------------: | ------------------------------------------------------------: |
 | [:fa-arrow-circle-left:Web Dev](Index.md)              | [:fa-arrow-circle-up:Web Dev](Index.md)      | [:fa-arrow-circle-right:CSS](CSS.md)                          |
@@ -174,7 +174,6 @@ In this document I refer to the contents of an HTML as [*tags*](#tags), which ca
 
 #### Common Examples
 
-<!--TODO!!!-->
 | Character            | Entity Name | Entity Code | Reason to Substitute                                 |
 | -------------------: | ----------- | ----------- | ---------------------------------------------------- |
 | &lt;                 | `&lt;`      | `&#x003C;`  | Reserved: beginning of a tag                         |
@@ -401,7 +400,7 @@ Non-global
 | ^                   | >          | Provides option to uniquely identify the element by assigning an id to it.                                            |                                   |
 | ^                   | >          | Used for targeting such element with an other element's `for` attribute or CSS, JS.                                   |                                   |
 | **inputmode**       | enumerated | `<textarea>` `contenteditable`                                                                                        | keyword                           |
-| ^                   | >          | Hints the type of data, that may be entered by user.  <!--TODO: Move values to the next column-->                     |                                   |
+| ^                   | >          | Hints the type of data, that may be entered by user.  <!--FXME: Move values to the next column-->                     |                                   |
 | ^                   | >          | Values = 'none', 'text', 'decimal', 'numeric', 'tel', 'search', 'email', 'url'                                        |                                   |
 | **label**           | general    | `<optgroup>` `<option>` `<track>`                                                                                     | string                            |
 | ^                   | >          | Adds user-readable title to the element.                                                                              |                                   |
@@ -514,8 +513,9 @@ Non-global
 | **wrap**            | enumerated | `<textarea>`                                                                                                          | keyword                           |
 | ^                   | >          | Defines word wrap for the element's content.                                                                          |                                   |
 
-<!--TODO: List acceptable keywords for each attribute, that require specific strings as input!--> <!--Uhh, ...somewhere.-->
+<!--TODO: List acceptable keywords for each attribute, that require specific strings as input!--> <!--Ugh, ...somewhere.-->
 \* See: https://html.spec.whatwg.org/multipage/tables.html#table-descriptions-techniques
+
 ## TAGS
 
 <nav>
@@ -528,7 +528,6 @@ Non-global
 </nav>
 
 Tags indicate the beginning and/or end of an [element](#elements)'s description in the source code.
-<!--TODO: Elaborate further?-->
 
 ### Anatomy
 
