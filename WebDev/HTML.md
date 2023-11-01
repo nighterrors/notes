@@ -191,7 +191,7 @@ In HTML the following characters have special meaning:
 
 ### Entities
 
-<!--TODO!!!-->
+An entity is a string representation of a unicode character. Some characters have named entities but all have codes, although it depends on the renderer, which one can be displayed. (All the printable ASCII characters are supported, plus more!)
 
 #### Anatomy
 
@@ -208,7 +208,7 @@ In HTML the following characters have special meaning:
  &entity;
 ```
 
-- Even though some don't have name, all of them can be referred to by they UTF code.
+- Even though some don't have name, all of them can be referred to by they unicode code point.
 	- Either in hexadecimal,
 
 	```
