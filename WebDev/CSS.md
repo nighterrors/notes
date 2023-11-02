@@ -36,8 +36,6 @@ Cascading Style-Sheets
 
 
 
----
-
 ## SELECTORS
 
 
@@ -49,8 +47,6 @@ Cascading Style-Sheets
 ### Classification
 
 
-
----
 
 ## RULE SETS
 
@@ -71,7 +67,11 @@ Internal
 External
 	:	
 
+---
+
 ## REFERENCES
 
 <!--Abbreviations-->
 
+
+---
