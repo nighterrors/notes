@@ -30,7 +30,9 @@ Cascading Style-Sheets
 
 ### Anatomy
 
+```
 
+```
 
 ### Classification
 
@@ -42,7 +44,9 @@ Cascading Style-Sheets
 
 ### Anatomy
 
+```
 
+```
 
 ### Classification
 
@@ -54,18 +58,31 @@ Cascading Style-Sheets
 
 ### Anatomy
 
+```
+
+```
+
 ---
 
 ## REPRESENTATION
 
 Inline
 	:	
+	:	```
+		
+		```
 
 Internal
 	:	
+	:	```
+		
+		```
 
 External
 	:	
+	:	```
+		
+		```
 
 ---
 
