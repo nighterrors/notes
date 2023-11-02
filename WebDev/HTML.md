@@ -78,6 +78,7 @@ HyperText Markup Language
 			- [Embedded](#embedded)
 			- [Interactive](#interactive)
 			- [(Palpable)](#palpable)
+		- [Grouping](#grouping)
 	- [CONSTRUCTS](#constructs)
 		- [Page](#page)
 			- [Hierarchy](#hierarchy)
@@ -732,8 +733,9 @@ Self-closing
 
 ### Common Examples
 
-<!--TODO-->
 <!--TODO: Decide: Introduce tags here, and only group them in elements, maybe?-->
+
+<!--TODO-->
 
 ---
 <aside>So far these were mostly structural components in the source code of a given document. Now let's see how a page emerges from these microstructures!</aside>
@@ -858,7 +860,26 @@ Inline
 
 #### (Palpable)
 
+### Grouping
 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+- Main root
+- Document metadata
+- Sectioning root
+- Content sectioning
+- Text content
+- Inline text semantics
+- Image & multimedia
+- Embedded content
+- SVG & MathML
+- Scripting
+- Demarcating edits
+- Table content
+- Forms
+- Interactive elements
+- Web components
+- Obsolete & deprecated elements
 
 ## CONSTRUCTS
 <!--FXME: Navigation-->
