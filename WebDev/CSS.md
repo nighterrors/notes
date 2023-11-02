@@ -73,5 +73,20 @@ External
 
 <!--Abbreviations-->
 
+*[ARIA]:		Accessible Rich Internet Applications
+*[CSS]:			Cascading Style Sheets
+*[HTML]:		Hyper Text Markup Language
+*[HTTP]:		HyperText Transfer Protocol
+*[JS]:			Java Script
+*[MDN]:			Mozilla Developer Network
+*[MIME]:		Multi-purpose Internet Mail Extensions
+*[SVG]:			Scalable Vector Graphics
+*[TOC]:			Table of Content
+*[URI]:			Uniform Resource Identifier
+*[URL]:			Uniform Resource Locator
+*[WAI]:			Works As Intended
+*[WAI-ARIA]:	Web Accessibility Initiative - Accessible Rich Internet Applications
+*[XHTML]:		XML compatible HTML
+*[XML]:			eXtensible Markup Language
 
 ---
