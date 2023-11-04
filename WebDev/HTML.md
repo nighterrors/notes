@@ -862,32 +862,52 @@ Foreign elements
 
 #### Representation
 
-<!--TODO: IDK, not void? - see: https://html.spec.whatwg.org/multipage/syntax.html#elements-2 -->
-	:	
+- Void
+	- Void elements
+	- Self-closing foreign elements
 
-Void
-	:	<!--TODO-->
+
+- Container
+	- Template element
+	- Raw text elements
+	- Escapable raw text elements
+	- Normal elements
+	- Other foreign elements
 
 #### Relationship
 
+Absolute:
+
 Root
-	:	<!--TODO-->
+	:	The `<html>` element.
+	:	Doesn't have a parent.
+	:	If omitted, it's implied.
+
+Relative:
 
 Parent
-	:	<!--TODO-->
+	:	Every element has exactly one parent, except the `<html>`, which has none.
+	:	The parent element of any element is the one containing it.
 
 Child
-	:	<!--TODO-->
+	:	Non-void elements can have children.
+	:	A child is any object that is directly nested in the element.
 
 #### Layout
 
+Layout refers to the representation the renderer uses to display the content.
+
 Block
-	:	<!--TODO-->
+	:	Block elements break the text flow.
+	:	They start and end on a newline.
 
 Inline
-	:	<!--TODO-->
+	:	Inline elements don't break the text flow.
+	:	They start and end in the same line.
 
 #### Semantics
+
+Semantics refer to a special intrinsic property of elements that hints the browser / renderer / assistive or other software the element's contextual role and place in the document.
 
 - Has semantic meaning (most of them have)
 - Doesn't have semantic meaning
