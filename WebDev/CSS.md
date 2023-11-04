@@ -59,9 +59,17 @@ name: value
 
 ## SELECTORS
 
+- element
+- class
+- id
 
+- pseudo
 
 ### Anatomy
+
+- and
+- or
+- relationship
 
 ```
 
