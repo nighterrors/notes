@@ -105,7 +105,7 @@ HyperText Markup Language
 
 HTML is a markup language, which means it consists of two main components:
 
-- The display text, that's going to be rendered in browser window (or red by a screen reader or other assistive software),
+- The display text, that's going to be rendered in browser window (or read by a screen reader or other assistive software),
 - And the markup, that gives contextual info to the browser (or assistive software) how to render the text.  
 	<aside>This contextual info used to be largely overlooked and all that mattered was the visual representation. <!--TODO: But now search engines and AI beside assistive tech needs more context in a way that visual just don't cut it any more...--></aside>
 
@@ -757,6 +757,7 @@ Self-closing
 
 ## <!--TODO: Chapter name - IDK, CONTENT TYPES?-->
 
+<!--TODO-->
 - Doctype
 - Comment
 - Text
@@ -1067,6 +1068,7 @@ Properly formatted html consists of the following parts, in the following order:
 *[URL]:			Uniform Resource Locator
 *[WAI]:			Works As Intended
 *[WAI-ARIA]:	Web Accessibility Initiative - Accessible Rich Internet Applications
+*[WHATWG]:		Web Hypertext Application Technology Working Group https://whatwg.org/
 *[XHTML]:		XML compatible HTML
 *[XML]:			eXtensible Markup Language
 
