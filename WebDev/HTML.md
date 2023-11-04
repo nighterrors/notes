@@ -278,7 +278,7 @@ An entity is a string representation of a unicode character. Some characters hav
 | @                    | `&commat;`  | `&#x0040;`  |                                                      |
 |                      | `&;`        | `&#x;`      |                                                      |
 
-<aside>* A single > seems to break my md parser somehow, so I had to add something else that would render to make the &gt; visible.</aside>
+<aside>* A single > seems to break my markdown parser somehow, so I had to add something else that would render to make the &gt; visible.</aside>
 
 Explanation:
 
@@ -902,7 +902,7 @@ Properly formatted html consists of the following parts, in the following order:
 
 1. \[Byte Order Mark]
 2. \[Comments &| whitespace]
-3. [DOCTYPE](#special-tag-level-components)
+3. [DOCTYPE](#doctype)
 4. \[Comments &| whitespace]
 5. Document element (`<html>`\[...]`</html>`)
 6. \[Comments &| whitespace]
