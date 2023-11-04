@@ -61,6 +61,7 @@ HyperText Markup Language
 			- [Self-closing tag](#self-closing-tag)
 		- [Classification](#classification-1)
 		- [Common Examples](#common-examples-2)
+	- [](#)
 	- [ELEMENTS](#elements)
 		- [Anatomy](#anatomy-3)
 		- [Classification](#classification-2)
@@ -107,7 +108,7 @@ HTML is a markup language, which means it consists of two main components:
 - And the markup, that gives contextual info to the browser (or assistive software) how to render the text.  
 	<aside>This contextual info used to be largely overlooked and all that mattered was the visual representation. <!--TODO: But now search engines and AI beside assistive tech needs more context in a way that visual just don't cut it any more...--></aside>
 
-In this document I discuss the syntax used to markup HTML documents. I will refer to the contents of such document as [*tags*](#tags), which can have [*attributes*](#attributes) and may have nested text (That may be markup text itself, or just plain text). The tags and their attributes have an abstract counterpart of a corresponding *object* and its *properties*. Objects in the scope of web pages are referred to as [*elements*](#elements).
+In this document I discuss the syntax used to markup HTML documents. I will refer to the contents of such document as [*tags*](#tags), which can have [*attributes*](#attributes) and may have nested text (That may be markup text itself, or just plain text). The tags and their attributes have an abstract counterpart of a corresponding [*element*](#elements) and its *properties*. Their content (if any) is in general referred to as [objects](#). These objects in the context of HTML are called *nodes*. So a node can be plain text, another tag, etc..
 
 <aside>
 
@@ -752,6 +753,15 @@ Self-closing
 <aside>So far these were mostly structural components in the source code of a given document. Now let's see how a page emerges from these microstructures!</aside>
 
 ---
+
+## <!--TODO: Chapter name - IDK, CONTENT TYPES?-->
+
+- Doctype
+- Comment
+- Text
+- Entity
+- Element
+- CDATA section
 
 ## ELEMENTS
 
