@@ -37,6 +37,7 @@ HyperText Markup Language
 - [HTML](#html)
 	- [TOC](#toc)
 	- [INTRODUCTION](#introduction)
+		- [Overview](#overview)
 	- [CHARACTERS](#characters)
 		- [Reserved Characters](#reserved-characters)
 		- [Entities](#entities)
@@ -107,6 +108,16 @@ HTML is a markup language, which means it consists of two main components:
 	<aside>This contextual info used to be largely overlooked and all that mattered was the visual representation. <!--TODO: But now search engines and AI beside assistive tech needs more context in a way that visual just don't cut it any more...--></aside>
 
 In this document I discuss the syntax used to markup HTML documents. I will refer to the contents of such document as [*tags*](#tags), which can have [*attributes*](#attributes) and may have nested text (That may be markup text itself, or just plain text). The tags and their attributes have an abstract counterpart of a corresponding *object* and its *properties*. Objects in the scope of web pages are referred to as [*elements*](#elements).
+
+<aside>
+
+### Overview
+
+A HTML [document](#page) consists of a hierarchical tree of [tags](#tags) nested into each-other: Thus these tags may contain 0 or more tags inside and/or text content, that is the visible part of the document.  
+Every tag can have 0 or more [attributes](#attributes), that tune their behaviour. Some tags can reference external or internal content through their attributes.  
+Display text may contain [entities](#entities), which are specific strings representing certain characters, that are otherwise would've been interpreted as parts of the markup or just difficult to type in.
+
+</aside>
 
 ---
 
