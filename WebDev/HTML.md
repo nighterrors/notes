@@ -65,6 +65,7 @@ HyperText Markup Language
 	- [ELEMENTS](#elements)
 		- [Anatomy](#anatomy-3)
 		- [Classification](#classification-2)
+			- [WHATWG](#whatwg)
 			- [Representation](#representation)
 			- [Relationship](#relationship)
 			- [Layout](#layout)
@@ -800,6 +801,52 @@ https://html.spec.whatwg.org/multipage/syntax.html#elements-2 <!--TODO: Move it 
 | ^              | non-semantic | S-NonSemantic                   |
 
 \* As it will appear in the upcoming demo page.
+
+#### WHATWG
+
+https://whatwg.org/ <!--TODO: Move it footnote!-->
+
+The template element
+	:	The template element isn't rendered, as it represents *nothing*.
+	:	Instead, it stores a document fragment, that can be accessed by scripts to clone and insert into the document body.
+	:	The element itself doesn't contain this fragment as a child.
+	:	> `<template>`
+
+Void elements
+	:	Void elements don't have and must not have closing tags.
+	:	As a result, they can't have any content.
+	:	> `<area>`, `<base>`, `<br>`, `<col>`, `<embed>`, `<hr>`, `<img>`, `<input>`, `<link>`, `<meta>`, `<source>`, `<track>`, `<wbr>`
+
+
+Raw text elements
+	:	Must have both opening and closing tags.
+	:	Can have text content, with some restrictions.
+	:	> `<script>`,`<style>`
+
+Escapable raw text elements
+	:	Must have both opening and closing tags.
+	:	Can have text content including entities, with some restrictions (e.g.: no ambiguous ampersand).
+	:	> `<textarea>`, `<title>`
+
+Normal elements
+	:	Generally have both opening and closing tags.
+	:	Certain element's opening and/or closing tags may be omitted, but it's a bad practice, so don't do it!
+	:	Allowed children:
+		- Comment
+		- Text
+		- Entity
+		- Element
+	:	> Rest of the tags.
+
+Foreign elements
+	:	Whose opening tag is self-closing, must not have a closing tag, and can't have children.
+	:	Whose opening tag isn't self-closing, must have a closing tag, and can have any of the following children:
+		- Comment
+		- Text
+		- Entity
+		- CDATA section
+		- Element
+	:	> Elements from the MathML and SVG namespace.
 
 #### Representation
 
