@@ -924,6 +924,8 @@ Semantics refer to a special intrinsic property of elements that hints the brows
 
 ### Content Types
 
+https://html.spec.whatwg.org/multipage/dom.html#kinds-of-content
+
 <!--TODO: Diagram-->
 
 #### (Nothing)
