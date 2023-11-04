@@ -50,7 +50,7 @@ Cascading Style-Sheets
 ### Anatomy
 
 ```
-
+name: value
 ```
 
 ### Classification
