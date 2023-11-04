@@ -776,12 +776,23 @@ Self-closing
 </nav>
 
 An element is represented by its corresponding tag in HTML.
-<!--TODO: Mention inner/outer~text/html!-->
 
 ### Anatomy
 
-```<!--TODO-->
-<tag>???</tag>
+<!--TODO: Mention inner/outer~text/html!-->
+
+```
+     outer text / html
+            |
+/-----------^-----------\
+<tag>Nested content</tag>
+\-v-/\------v-----/\--v-/
+  |         |         |
+opening tag |         |
+            |         |
+   inner text / html  |
+                      |
+              closing tag
 ```
 
 ### Classification
