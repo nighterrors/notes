@@ -45,8 +45,10 @@ HyperText Markup Language
 		- [Entities](#entities)
 			- [Anatomy](#anatomy)
 			- [Common Examples](#common-examples)
+		- [CDATA Sections](#cdata-sections)
+			- [Anatomy](#anatomy-1)
 	- [ATTRIBUTES](#attributes)
-		- [Anatomy](#anatomy-1)
+		- [Anatomy](#anatomy-2)
 			- [General](#general)
 			- [Boolean](#boolean)
 		- [Classification](#classification)
@@ -54,7 +56,7 @@ HyperText Markup Language
 			- [By Scope](#by-scope)
 		- [Common Examples](#common-examples-1)
 	- [TAGS](#tags)
-		- [Anatomy](#anatomy-2)
+		- [Anatomy](#anatomy-3)
 			- [General](#general-1)
 			- [Doctype](#doctype)
 			- [Comment](#comment)
@@ -65,7 +67,7 @@ HyperText Markup Language
 		- [Common Examples](#common-examples-2)
 	- [](#)
 	- [ELEMENTS](#elements)
-		- [Anatomy](#anatomy-3)
+		- [Anatomy](#anatomy-4)
 		- [Classification](#classification-2)
 			- [WHATWG](#whatwg)
 			- [Representation](#representation)
@@ -314,6 +316,26 @@ Interpreted
 Not on keyboard
 	:	These characters may be difficult to produce on some keyboards.
 	:	:fa-info-circle: Keep in handy the ones you can't find on yours!
+
+### CDATA Sections
+
+<!--TODO-->https://en.wikipedia.org/wiki/CDATA
+
+- :fa-info-circle:Only available in [foreign elements](#whatwg) (SVG, XML).
+- It's content is interpreted as literal text, equivalent to special characters being escaped or referenced by entities. There is no semantic or other difference between those approaches.
+- As a result tags and character entities don't work inside CDATA sections.
+
+#### Anatomy
+
+```
+  start      end
+    |         |
+/---^---\    /^\
+<![CDATA[text]]>
+         \v-/
+          |
+arbitrary text, excluding the string `]]>`
+```
 
 ## ATTRIBUTES
 
