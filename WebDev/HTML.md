@@ -669,6 +669,7 @@ opening angle-bracket
 
 Must be the first line of the document, that isn't a whitespace or a comment.
 Hints that the document is supposed to be a correctly formed html file.
+Technically not a tag, but a preamble.
 
 ```
 `<`
@@ -855,7 +856,7 @@ https://html.spec.whatwg.org/multipage/syntax.html#elements-2 <!--TODO: Move it 
 
 #### WHATWG
 
-https://whatwg.org/ <!--TODO: Move it footnote!-->
+https://whatwg.org/ <!--TODO: Make it footnote!-->
 
 The template element
 	:	The template element isn't rendered, as it represents *nothing*.
