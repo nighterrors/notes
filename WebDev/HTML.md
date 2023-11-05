@@ -65,7 +65,7 @@ HyperText Markup Language
 			- [Self-closing tag](#self-closing-tag)
 		- [Classification](#classification-1)
 		- [Common Examples](#common-examples-2)
-	- [](#)
+	- [NODE TYPES](#node-types)
 	- [ELEMENTS](#elements)
 		- [Anatomy](#anatomy-4)
 		- [Classification](#classification-2)
@@ -640,10 +640,10 @@ Non-global
 
 <nav>
 
-| >                                               | [:fa-chevron-circle-up:Top](#top)         |                                            |
-| ----------------------------------------------- | :---------------------------------------: | -----------------------------------------: |
-| [:fa-chevron-circle-left:Previous](#attributes) |                                           | [:fa-chevron-circle-right:Next](#elements) |
-| >                                               | [:fa-chevron-circle-down:Bottom](#bottom) |                                            |
+| >                                               | [:fa-chevron-circle-up:Top](#top)         |                                              |
+| ----------------------------------------------- | :---------------------------------------: | -------------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#attributes) |                                           | [:fa-chevron-circle-right:Next](#node-types) |
+| >                                               | [:fa-chevron-circle-down:Bottom](#bottom) |                                              |
 
 </nav>
 
@@ -785,7 +785,16 @@ Self-closing
 
 ---
 
-## <!--TODO: Chapter name - IDK, CONTENT TYPES?-->
+## NODE TYPES
+
+<nav>
+
+| >                                         | [:fa-chevron-circle-up:Top](#top)         |                                            |
+| ----------------------------------------- | :---------------------------------------: | -----------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#tags) |                                           | [:fa-chevron-circle-right:Next](#elements) |
+| >                                         | [:fa-chevron-circle-down:Bottom](#bottom) |                                            |
+
+</nav>
 
 <!--TODO-->
 - Doctype
@@ -799,10 +808,10 @@ Self-closing
 
 <nav>
 
-| >                                         | [:fa-chevron-circle-up:Top](#top)         |                                              |
-| ----------------------------------------- | :---------------------------------------: | -------------------------------------------: |
-| [:fa-chevron-circle-left:Previous](#tags) |                                           | [:fa-chevron-circle-right:Next](#constructs) |
-| >                                         | [:fa-chevron-circle-down:Bottom](#bottom) |                                              |
+| >                                               | [:fa-chevron-circle-up:Top](#top)         |                                              |
+| ----------------------------------------------- | :---------------------------------------: | -------------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#node-types) |                                           | [:fa-chevron-circle-right:Next](#constructs) |
+| >                                               | [:fa-chevron-circle-down:Bottom](#bottom) |                                              |
 
 </nav>
 
@@ -1108,6 +1117,7 @@ Properly formatted html consists of the following parts, in the following order:
 <!--Abbreviations-->
 
 *[ARIA]:		Accessible Rich Internet Applications
+*[CDATA]:		Character DATA
 *[CSS]:			Cascading Style Sheets
 *[HTML]:		Hyper Text Markup Language
 *[HTTP]:		HyperText Transfer Protocol
