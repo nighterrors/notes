@@ -1059,10 +1059,12 @@ Properly formatted html consists of the following parts, in the following order:
 		- \[`<meta />`]
 		- \[`<script>`]
 		- \[`<style>`]
+		- \[`<title>`]
 	2. `<body>`
 		- elements of the page <!--TODO-->
 
-<!--TODO-->
+Example:
+
 ```
 <!DOCTYPE html>
 
