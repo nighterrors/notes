@@ -797,12 +797,12 @@ Self-closing
 </nav>
 
 <!--TODO-->
-- Doctype
-- Comment
-- Text
-- Entity
-- Element
-- CDATA section
+- [Doctype](#doctype)
+- [Comment](#comment)
+- [Text](#plain-text)
+- [Entity](#entities)
+- [CDATA section](#cdata-sections)
+- [Element](#elements)
 
 ## ELEMENTS
 
