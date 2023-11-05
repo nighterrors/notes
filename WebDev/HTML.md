@@ -38,7 +38,9 @@ HyperText Markup Language
 	- [TOC](#toc)
 	- [INTRODUCTION](#introduction)
 		- [Overview](#overview)
-	- [CHARACTERS](#characters)
+	- [TEXT](#text)
+		- [Plain Text](#plain-text)
+		- [Whitespace](#whitespace)
 		- [Reserved Characters](#reserved-characters)
 		- [Entities](#entities)
 			- [Anatomy](#anatomy)
@@ -95,10 +97,10 @@ HyperText Markup Language
 
 <nav>
 
-| >                                        | [:fa-chevron-circle-up:Top](#top)         |                                              |
-| ---------------------------------------- | :---------------------------------------: | -------------------------------------------: |
-| [:fa-chevron-circle-left:Previous](#toc) |                                           | [:fa-chevron-circle-right:Next](#characters) |
-| >                                        | [:fa-chevron-circle-down:Bottom](#bottom) |                                              |
+| >                                        | [:fa-chevron-circle-up:Top](#top)         |                                        |
+| ---------------------------------------- | :---------------------------------------: | -------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#toc) |                                           | [:fa-chevron-circle-right:Next](#text) |
+| >                                        | [:fa-chevron-circle-down:Bottom](#bottom) |                                        |
 
 </nav>
 
@@ -123,7 +125,7 @@ Display text may contain [entities](#entities), which are specific strings repre
 
 ---
 
-## CHARACTERS
+## TEXT
 
 <nav>
 
@@ -133,6 +135,12 @@ Display text may contain [entities](#entities), which are specific strings repre
 | >                                                 | [:fa-chevron-circle-down:Bottom](#bottom) |                                              |
 
 </nav>
+
+### Plain Text
+
+<!--TODO-->
+
+### Whitespace
 
 HTML parsers treat whitespace characters (space, tab, newline) equally:
 
@@ -311,10 +319,10 @@ Not on keyboard
 
 <nav>
 
-| >                                               | [:fa-chevron-circle-up:Top](#top)         |                                        |
-| ----------------------------------------------- | :---------------------------------------: | -------------------------------------: |
-| [:fa-chevron-circle-left:Previous](#characters) |                                           | [:fa-chevron-circle-right:Next](#tags) |
-| >                                               | [:fa-chevron-circle-down:Bottom](#bottom) |                                        |
+| >                                         | [:fa-chevron-circle-up:Top](#top)         |                                        |
+| ----------------------------------------- | :---------------------------------------: | -------------------------------------: |
+| [:fa-chevron-circle-left:Previous](#text) |                                           | [:fa-chevron-circle-right:Next](#tags) |
+| >                                         | [:fa-chevron-circle-down:Bottom](#bottom) |                                        |
 
 </nav>
 
