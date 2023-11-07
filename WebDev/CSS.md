@@ -41,7 +41,9 @@ Cascading Style-Sheets
 
 ### Anatomy
 
-
+```
+/* multi-line comment */
+```
 
 ## RULES
 
