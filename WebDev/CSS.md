@@ -137,6 +137,7 @@ External
 <!--Abbreviations-->
 
 *[ARIA]:		Accessible Rich Internet Applications
+*[CDATA]:		Character DATA
 *[CSS]:			Cascading Style Sheets
 *[HTML]:		Hyper Text Markup Language
 *[HTTP]:		HyperText Transfer Protocol
@@ -149,6 +150,7 @@ External
 *[URL]:			Uniform Resource Locator
 *[WAI]:			Works As Intended
 *[WAI-ARIA]:	Web Accessibility Initiative - Accessible Rich Internet Applications
+*[WHATWG]:		Web Hypertext Application Technology Working Group https://whatwg.org/
 *[XHTML]:		XML compatible HTML
 *[XML]:			eXtensible Markup Language
 
