@@ -61,11 +61,12 @@ name: value
 
 ## SELECTORS
 
-- element
-- class
-- id
+- element	`tag`
+- class		`.class`
+- id		`#id`
 
-- pseudo
+- attribute	`?attribute`<!--FXME-->
+- pseudo	`?event attribute`<!--FXME-->
 
 ### Anatomy
 
@@ -74,7 +75,7 @@ name: value
 - relationship
 
 ```
-
+<!--TODO-->
 ```
 
 ### Classification
