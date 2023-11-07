@@ -89,7 +89,14 @@ name: value
 ### Anatomy
 
 ```
-
+selector {rule set;}
+```
+```
+selector {
+	rule 1;
+	rule ...;
+	rule n;
+}
 ```
 
 ---
