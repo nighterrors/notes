@@ -109,7 +109,7 @@ Inline
 	:	They act on the element and its children (no need for selectors).
 	:	:fa-times-circle: Not recommended; *=> use **external CSS**:fa-check-circle: instead!*
 	:	```
-		
+		<tag style='rule;[...rule-n;]'>
 		```
 
 Internal
@@ -118,7 +118,7 @@ Internal
 	:	Applies to the contents of the whole document. :fa-info-circle: (If multiple tags add internal and/or linked CSS, they're applied consecutively - so rules may override previous ones.)
 	:	:fa-times-circle: Not recommended; *=> use **external CSS**:fa-check-circle: instead!*
 	:	```
-		
+		<style>selector {rule;[ more rules]}[ more rule sets]</style>
 		```
 
 External
@@ -127,7 +127,7 @@ External
 	:	Applies to the contents of the whole document. :fa-info-circle: (If multiple tags add internal and/or linked CSS, they're applied consecutively - so rules may override previous ones.)
 	:	:fa-check-circle: Recommended way of applying CSS.
 	:	```
-		
+		<link href="main.css" rel='stylesheet' />
 		```
 
 ---
