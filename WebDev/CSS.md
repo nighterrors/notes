@@ -104,19 +104,28 @@ selector {
 ## REPRESENTATION
 
 Inline
-	:	
+	:	Placed in an opening or self-closing tag as the `style` attribute.
+	:	The rules are given as the attribute's value. (They are quoted.)
+	:	They act on the element and its children (no need for selectors).
+	:	:fa-times-circle: Not recommended; *=> use **external CSS**:fa-check-circle: instead!*
 	:	```
 		
 		```
 
 Internal
-	:	
+	:	Must be placed inside the `<head>.`
+	:	The rules are nested between the tags as pure CSS. (No quoting needed.)
+	:	Applies to the contents of the whole document. :fa-info-circle: (If multiple tags add internal and/or linked CSS, they're applied consecutively - so rules may override previous ones.)
+	:	:fa-times-circle: Not recommended; *=> use **external CSS**:fa-check-circle: instead!*
 	:	```
 		
 		```
 
 External
-	:	
+	:	Should be placed inside the `<head>.`
+	:	The rules are linked from an external *.css file.
+	:	Applies to the contents of the whole document. :fa-info-circle: (If multiple tags add internal and/or linked CSS, they're applied consecutively - so rules may override previous ones.)
+	:	:fa-check-circle: Recommended way of applying CSS.
 	:	```
 		
 		```
