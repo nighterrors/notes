@@ -322,7 +322,7 @@ Not on keyboard
 <!--TODO-->https://en.wikipedia.org/wiki/CDATA
 
 - :fa-info-circle:Only available in [foreign elements](#whatwg) (SVG, XML).
-- It's content is interpreted as literal text, equivalent to special characters being escaped or referenced by entities. There is no semantic or other difference between those approaches.
+- It's content is interpreted as literal text, equivalent to special characters being escaped or referenced by entities. There is no semantic or other difference between a CDATA section or a preformatted text.
 - As a result tags and character entities don't work inside CDATA sections.
 
 #### Anatomy
