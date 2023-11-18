@@ -37,24 +37,57 @@
 	- [OVERVIEW](#overview)
 	- [PRIMITIVE DATA TYPES](#primitive-data-types)
 	- [LINEAR](#linear)
-		- [Array](#array)
-			- [String](#string)
-			- [Matrix](#matrix)
-		- [Linked List](#linked-list)
-		- [Stack](#stack)
-		- [Queue](#queue)
-		- [Dequeue](#dequeue)
-	- [TREES](#trees)
-		- [Binary Search Tree](#binary-search-tree)
-		- [Heap](#heap)
-		- [AVL Tree](#avl-tree)
+		- [Arrays](#arrays)
+			- [Strings](#strings)
+			- [Matrices](#matrices)
+		- [Linked Lists](#linked-lists)
+		- [Stacks](#stacks)
+		- [Queues](#queues)
+		- [Dequeues](#dequeues)
+	- [NON-LINEAR](#non-linear)
+		- [Trees](#trees)
+			- [Binary Trees](#binary-trees)
+			- [Binary Search Trees](#binary-search-trees)
+			- [Self-Balancing Binary Search Trees](#self-balancing-binary-search-trees)
+				- [Red-Black Tree](#red-black-tree)
+			- [AVL Trees](#avl-trees)
+			- [B-Trees](#b-trees)
+		- [Graphs](#graphs)
+			- [Directed Graphs](#directed-graphs)
+			- [Undirected Graphs](#undirected-graphs)
+			- [Cyclic Graphs](#cyclic-graphs)
+			- [Acyclic Graphs](#acyclic-graphs)
+	- [HASHED](#hashed)
+		- [Hash Tables](#hash-tables)
+		- [Hash Maps](#hash-maps)
+		- [Hash Sets](#hash-sets)
+	- [ADVANCED](#advanced)
+		- [Heaps](#heaps)
+		- [Tries](#tries)
+		- [Skip Lists](#skip-lists)
+	- [COMPOSITE](#composite)
+		- [Graphs of Lists](#graphs-of-lists)
+		- [Trees of Arrays](#trees-of-arrays)
+		- [Hybrid Structures](#hybrid-structures)
+	- [SPECIALISED](#specialised)
+		- [Bloom Filters](#bloom-filters)
+		- [Bitsets](#bitsets)
+		- [Interval Trees](#interval-trees)
+		- [Fenwick Trees](#fenwick-trees)
+	- [DYNAMIC](#dynamic)
+		- [Dynamic Arrays](#dynamic-arrays)
+		- [Linked Structures with Dynamic Memory Allocation](#linked-structures-with-dynamic-memory-allocation)
+	- [SPATIAL](#spatial)
+		- [Quad Trees](#quad-trees)
+		- [Octrees](#octrees)
+	- [TEXT-SPECIFIC](#text-specific)
+		- [Gap Buffers](#gap-buffers)
+		- [Suffix Trees](#suffix-trees)
+		- [Ternary Search Trees](#ternary-search-trees)
+	- [ABSTRACT](#abstract)
+		- [Dictionary](#dictionary)
+		- [Colour Models](#colour-models)
 		- [Decision Tree](#decision-tree)
-		- [Red-Black Tree](#red-black-tree)
-		- [HASH TABLE](#hash-table)
-	- [Dictionary](#dictionary)
-	- [TRI](#tri)
-	- [GRAPH](#graph)
-	- [GAP BUFFER](#gap-buffer)
 
 ---
 
@@ -134,82 +167,215 @@ The building blocks of data structures.
 
 a.k.a. Sequential Data Structures.
 
-### Array
+### Arrays
 
 
 
-#### String
+#### Strings
 
 
 
-#### Matrix
+#### Matrices
 
 
 
-### Linked List
+### Linked Lists
 
 
 
-### Stack
+### Stacks
 
 
 
-### Queue
+### Queues
 
 
 
-### Dequeue
+### Dequeues
 
 a.k.a. Double-Ended Queue
 
 
 
 
-## TREES
+## NON-LINEAR
 
 
 
-### Binary Search Tree
+### Trees
 
 
 
-### Heap
+#### Binary Trees
 
 
 
-### AVL Tree
+#### Binary Search Trees
 
 
 
-### Decision Tree
+#### Self-Balancing Binary Search Trees
 
 
 
-### Red-Black Tree
+##### Red-Black Tree
 
 
 
-### HASH TABLE
+#### AVL Trees
 
 
 
-## Dictionary
+#### B-Trees
 
 
 
-## TRI
+### Graphs
+
+
+
+#### Directed Graphs
+
+
+
+#### Undirected Graphs
+
+
+
+#### Cyclic Graphs
+
+
+
+#### Acyclic Graphs
+
+
+
+## HASHED
+
+
+
+### Hash Tables
+
+
+
+### Hash Maps
+
+
+
+### Hash Sets
+
+
+
+## ADVANCED
+
+
+
+### Heaps
+
+a.k.a. Priority Queues
+
+
+
+### Tries
+
+a.k.a. Prefix Trees
+
+
+
+### Skip Lists
+
+
+## COMPOSITE
+
+
+
+### Graphs of Lists
+
+
+
+### Trees of Arrays
+
+
+
+### Hybrid Structures
+
+
+
+## SPECIALISED
+
+
+
+### Bloom Filters
+
+
+
+### Bitsets
+
+
+
+### Interval Trees
+
+
+
+### Fenwick Trees
+
+a.k.a. Binary Indexed Trees
+
+## DYNAMIC
+
+
+
+### Dynamic Arrays
+
+
+
+### Linked Structures with Dynamic Memory Allocation
+
+
+
+## SPATIAL
+
+
+
+### Quad Trees
+
+
+
+### Octrees
+
+
+
+## TEXT-SPECIFIC
+
+
+
+### Gap Buffers
+
+
+
+### Suffix Trees
+
+
+
+### Ternary Search Trees
 
 
 
 ---
 
-## GRAPH
+## ABSTRACT
+
+These data structures can be represented in multiple ways and are commonly used for various tasks in different contexts.<!--FXME: Clarify-->
+
+### Dictionary
 
 
 
-## GAP BUFFER
+### Colour Models
 
 
+
+### Decision Tree
 
 
 <nav>
