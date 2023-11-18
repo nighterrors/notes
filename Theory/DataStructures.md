@@ -35,23 +35,26 @@
 - [DATA STRUCTURES](#data-structures)
 	- [TOC](#toc)
 	- [OVERVIEW](#overview)
-	- [VARIABLE](#variable)
-	- [ARRAY](#array)
-	- [STRING](#string)
-	- [LINKED LIST](#linked-list)
-	- [BINARY TREE](#binary-tree)
-	- [DICTIONARY](#dictionary)
-	- [HASH TABLE](#hash-table)
+	- [PRIMITIVE DATA TYPES](#primitive-data-types)
+	- [LINEAR](#linear)
+		- [Array](#array)
+			- [String](#string)
+			- [Matrix](#matrix)
+		- [Linked List](#linked-list)
+		- [Stack](#stack)
+		- [Queue](#queue)
+		- [Dequeue](#dequeue)
+	- [TREES](#trees)
+		- [Binary Search Tree](#binary-search-tree)
+		- [Heap](#heap)
+		- [AVL Tree](#avl-tree)
+		- [Decision Tree](#decision-tree)
+		- [Red-Black Tree](#red-black-tree)
+		- [HASH TABLE](#hash-table)
+	- [Dictionary](#dictionary)
 	- [TRI](#tri)
-	- [STACK](#stack)
-	- [QUEUE](#queue)
 	- [GRAPH](#graph)
-	- [MATRIX](#matrix)
 	- [GAP BUFFER](#gap-buffer)
-	- [HEAP](#heap)
-	- [AVL TREE](#avl-tree)
-	- [DECISION TREE](#decision-tree)
-	- [RED-BLACK TREE](#red-black-tree)
 
 ---
 
@@ -59,31 +62,7 @@
 
 
 
-## VARIABLE<!--TODO: Better name for single value stuff-->
-
-
-
-## ARRAY
-
-
-
-## STRING
-
-
-
-## LINKED LIST
-
-
-
-## BINARY TREE
-
-
-
-## DICTIONARY
-
-
-
-## HASH TABLE
+## PRIMITIVE DATA TYPES
 
 
 
@@ -93,39 +72,85 @@
 
 ---
 
-## STACK
+## LINEAR
+
+a.k.a. Sequential Data Structures.
+
+### Array
 
 
 
-## QUEUE
+#### String
 
 
+
+#### Matrix
+
+
+
+### Linked List
+
+
+
+### Stack
+
+
+
+### Queue
+
+
+
+### Dequeue
+
+a.k.a. Double-Ended Queue
+
+
+
+
+## TREES
+
+
+
+### Binary Search Tree
+
+
+
+### Heap
+
+
+
+### AVL Tree
+
+
+
+### Decision Tree
+
+
+
+### Red-Black Tree
+
+
+
+### HASH TABLE
+
+
+
+## Dictionary
+
+
+
+## TRI
+
+
+
+---
 
 ## GRAPH
 
 
 
-## MATRIX
-
-
-
 ## GAP BUFFER
 
-
-
-## HEAP
-
-
-
-## AVL TREE
-
-
-
-## DECISION TREE
-
-
-
-## RED-BLACK TREE
 
 
 
