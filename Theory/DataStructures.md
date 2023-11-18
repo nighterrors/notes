@@ -93,7 +93,7 @@
 
 ## OVERVIEW
 
-
+https://www.youtube.com/watch?v=X8h4dq9Hzq8&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4&index=6&t=0s
 
 ## PRIMITIVE DATA TYPES
 
@@ -169,7 +169,7 @@ a.k.a. Sequential Data Structures.
 
 ### Arrays
 
-
+https://www.youtube.com/watch?v=X8h4dq9Hzq8&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4&index=6&t=843s
 
 #### Strings
 
@@ -181,15 +181,15 @@ a.k.a. Sequential Data Structures.
 
 ### Linked Lists
 
-
+https://www.youtube.com/watch?v=X8h4dq9Hzq8&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4&index=6&t=2304s
 
 ### Stacks
 
-
+https://www.youtube.com/watch?v=X8h4dq9Hzq8&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4&index=6&t=159s
 
 ### Queues
 
-
+https://www.youtube.com/watch?v=X8h4dq9Hzq8&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4&index=6&t=159s
 
 ### Dequeues
 
@@ -204,7 +204,7 @@ a.k.a. Double-Ended Queue
 
 ### Trees
 
-
+https://www.youtube.com/watch?v=X8h4dq9Hzq8&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4&index=6&t=5448s
 
 #### Binary Trees
 
@@ -256,7 +256,7 @@ a.k.a. Double-Ended Queue
 
 ### Hash Tables
 
-
+https://www.youtube.com/watch?v=X8h4dq9Hzq8&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4&index=6&t=6574s
 
 ### Hash Maps
 
@@ -280,7 +280,7 @@ a.k.a. Priority Queues
 
 a.k.a. Prefix Trees
 
-
+https://www.youtube.com/watch?v=X8h4dq9Hzq8&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4&index=6&t=7457s
 
 ### Skip Lists
 
@@ -369,6 +369,7 @@ These data structures can be represented in multiple ways and are commonly used 
 
 ### Dictionary
 
+https://www.youtube.com/watch?v=X8h4dq9Hzq8&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4&index=6&t=6377s
 
 
 ### Colour Models
