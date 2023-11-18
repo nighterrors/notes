@@ -64,11 +64,69 @@
 
 ## PRIMITIVE DATA TYPES
 
+The building blocks of data structures.
 
+> Their utilisation and size varies between programming languages. <!--TODO: Following are the typical / common values of these-->
 
-## TRI
+-	Void Type
 
+	Void
+		:	Indicates no received or returned value
+		:	>	 E.g.: `int main(void)` receives no arguments (but returns an integer).
+		:	>	 E.g.: `void function(float)` takes a floating-point argument, but returns nothing.
 
+-	Boolean Type
+
+	Boolean
+		:	Represents `true` or `false` values.
+
+-	Integer Types
+
+	Byte
+		:	8 bit signed integer
+		:	>	 -128 to 127
+	
+	Short
+		:	16 bit signed integer
+		:	>	 -(2^15^) to 2^15^-1
+
+	Int
+		:	32 bit signed integer
+		:	>	 -(2^31^) to 2^31^-1
+	
+	Long
+		:	64 bit signed integer
+		:	>	 -(2^63^) to 2^63^-1
+
+-	Floating-Pint Types
+
+	Float
+		:	32 bit floating-point number
+			>	-	1 b sign
+			>	-	8 b exponent
+			>	-	23 b fraction
+	
+	Double
+		:	64 bit floating-point number
+			>	-	1 b sign
+			>	-	11 b exponent
+			>	-	52 b fraction
+
+-	Character Types
+
+	Char
+		:	Single ASCII character
+			>	 7 b unsigned ASCII code point
+			>	 or sometimes stored as a
+			>	 8 b signed integer, where negative values should be avoided
+
+	Unicode Character
+		:	It's exact name varies by language
+		:	Stores a Unicode character
+		:	>	Size depends on encoding (UTF-8 | UTF-16 | UTF-32) and the position of the character itself.
+			>	-	UTF-32: Always 32 b
+			>	-	UTF-16: 16 b or 32 b
+			>	-	UTF-8: 8 b, 16 b, 24 b or 32 b
 
 ---
 
