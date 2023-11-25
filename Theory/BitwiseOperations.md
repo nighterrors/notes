@@ -34,11 +34,24 @@
 
 - [BITWISE OPERATIONS](#bitwise-operations)
 	- [TOC](#toc)
-	- [](#)
+	- [OVERVIEW](#overview)
+	- [CONVERSIONS](#conversions)
+	- [LOGICAL OPERATIONS](#logical-operations)
+		- [Not](#not)
+			- [Bitwise Complement](#bitwise-complement)
+		- [And](#and)
+		- [Or](#or)
+		- [Xor](#xor)
+	- [SHIFTING OPERATIONS](#shifting-operations)
+		- [Right Shift](#right-shift)
+		- [Left Shift](#left-shift)
+	- [BIT MASKING](#bit-masking)
 
 ---
 
-## 
+## OVERVIEW
+
+
 
 <nav>
 
@@ -48,6 +61,48 @@
 | >                                        | [:fa-chevron-circle-down:Bottom](#bottom) |                                    |
 
 </nav>
+
+## CONVERSIONS
+
+
+
+## LOGICAL OPERATIONS
+
+
+
+### Not
+
+
+
+#### Bitwise Complement
+
+
+
+### And
+
+
+
+### Or
+
+
+
+### Xor
+
+
+
+## SHIFTING OPERATIONS
+
+
+
+### Right Shift
+
+
+
+### Left Shift
+
+
+
+## BIT MASKING
 
 
 
