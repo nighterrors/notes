@@ -11,42 +11,25 @@
 [INDEX](Index.md)
 
 1. [Theory](Theory/Index.md)
-
 	1. [Bitwise Operations](Theory/BitwiseOperations.md)
-
-	1. [Data Structures](Theory/DataStructures.md)
-
-	1. [Algorithms](Theory/Algorithms.md)
-
-	1. [Design Patterns](Theory/DesignPatterns.md)
-
-1. [Utilities](Utilities/Index.md)
-
-	1. [Git](Utilities/Git.md)
-
+	2. [Data Structures](Theory/DataStructures.md)
+	3. [Algorithms](Theory/Algorithms.md)
+	4. [Design Patterns](Theory/DesignPatterns.md)
+2. [Utilities](Utilities/Index.md)
 	1. [RegExp](Utilities/RegExp.md)
-
-1. [Web Development](WebDev/Index.md)
-
-	1. Front End
-
+	2. [Git](Utilities/Git.md)
+	3. [Docker](Utilities/Docker.md)
+3. [Web Development](WebDev/Index.md)
+	- Front End
 		1. [HTML](WebDev/HTML.md)
-
-		1. [CSS](WebDev/CSS.md)
-
-		1. [JS](WebDev/JS.md)
-
-		1. [Angular](WebDev/Angular.md)
-
-	1. Back End
-
+		2. [CSS](WebDev/CSS.md)
+		3. [JS](WebDev/JS.md)
+		4. [Angular](WebDev/Angular.md)
+	- Back End
 		1. [Node.js](WebDev/Node.js.md)
-
-1. [SQL](SQL/Index.md)
-
-1. [Python](Python/Index.md)
-
-1. [R](R/Index.md)
+4. [SQL](SQL/Index.md)
+5. [Python](Python/Index.md)
+6. [R](R/Index.md)
 
 ---
 
