@@ -20,6 +20,8 @@
 
 	1. [Design Patterns](Theory/DesignPatterns.md)
 
+1. [Protocols](Protocols/Index.md)
+
 1. [Utilities](Utilities/Index.md)
 
 	1. [Git](Utilities/Git.md)
